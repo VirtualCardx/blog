@@ -17,5 +17,6 @@ export async function GET(context: APIContext) {
       pubDate: post.data.pubDate,
       link: `/blog/${post.id}/`,
     })),
+    customData: `<lastBuildDate>${new Date().toUTCString()}</lastBuildDate>`,
   });
 }
