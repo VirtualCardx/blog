@@ -1,0 +1,94 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="搜索" description="搜索站内文章">
+  <h1 class="page-title">搜索</h1>
+  <div class="search-box">
+    <input id="search-input" type="search" placeholder="输入关键词，搜索标题、标签与正文…" autofocus />
+  </div>
+  <p id="search-empty" class="search-empty" hidden>没有找到相关的文章。</p>
+  <ul id="search-results" class="post-list"></ul>
+
+  <script>
+    import Fuse from 'fuse.js';
+
+    interface SearchItem {
+      id: string;
+      title: string;
+      description: string;
+      tags: string[];
+      pubDate: string;
+      content: string;
+    }
+
+    let fuse: Fuse<SearchItem> | null = null;
+
+    async function ensureIndex() {
+      if (fuse) return;
+      const res = await fetch('/search-index.json');
+      const data: SearchItem[] = await res.json();
+      fuse = new Fuse(data, {
+        keys: [
+          { name: 'title', weight: 3 },
+          { name: 'tags', weight: 2 },
+          { name: 'description', weight: 2 },
+          { name: 'content', weight: 1 },
+        ],
+        threshold: 0.35,
+        ignoreLocation: true,
+        minMatchCharLength: 2,
+      });
+    }
+
+    const formatDate = (iso: string) =>
+      new Date(iso).toLocaleDateString('zh-CN', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+      });
+
+    function initSearch() {
+      const input = document.getElementById('search-input') as HTMLInputElement | null;
+      const resultsEl = document.getElementById('search-results') as HTMLUListElement | null;
+      const emptyEl = document.getElementById('search-empty') as HTMLParagraphElement | null;
+      if (!input || !resultsEl || !emptyEl || input.dataset.bound) return;
+      input.dataset.bound = 'true';
+
+      function render(items: SearchItem[]) {
+        resultsEl.innerHTML = items
+          .map(
+            (item) => `
+              <li>
+                <time datetime="${item.pubDate}">${formatDate(item.pubDate)}</time>
+                <span>
+                  <a href="/blog/${item.id}/">${item.title}</a>
+                  <p class="search-result-desc">${item.description}</p>
+                </span>
+              </li>`,
+          )
+          .join('');
+        emptyEl.hidden = items.length > 0;
+      }
+
+      let timer: number;
+      input.addEventListener('input', () => {
+        clearTimeout(timer);
+        timer = window.setTimeout(async () => {
+          const query = input.value.trim();
+          if (!query) {
+            resultsEl.innerHTML = '';
+            emptyEl.hidden = true;
+            return;
+          }
+          await ensureIndex();
+          const matches = fuse!.search(query, { limit: 20 }).map((r) => r.item);
+          render(matches);
+        }, 150);
+      });
+    }
+
+    initSearch();
+    document.addEventListener('astro:page-load', initSearch);
+  </script>
+</Base>

@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { SITE_DESCRIPTION } from '../consts';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const recent = posts.slice(0, 8);
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
+---
+
+<Base>
+  <p class="intro">{SITE_DESCRIPTION}</p>
+
+  <h2 class="section-heading">最近文章</h2>
+  <ul class="post-list">
+    {
+      recent.map((post) => (
+        <li>
+          <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
+          <a href={`/blog/${post.id}/`} transition:name={`post-title-${post.id}`}>{post.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>
