@@ -394,7 +394,7 @@ main.container {
   margin: 0;
   padding: 0;
 }
-.toc li { margin: 0.1em 0; }
+.toc li { margin: 0.1em 0; position: relative; }
 .toc a {
   color: var(--text-soft);
   border: none;
@@ -405,7 +405,16 @@ main.container {
   max-width: 100%;
 }
 .toc a:hover { color: var(--text); }
-.toc a.active { color: var(--accent); font-weight: 500; }
+.toc a.active { color: var(--text); font-weight: 600; }
+.toc li:has(a.active)::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.35em;
+  bottom: 0.35em;
+  width: 2px;
+  background: var(--accent);
+}
 .toc-depth-3 { padding-left: 1.1em; }
 
 @media (min-width: 74rem) {
