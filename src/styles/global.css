@@ -376,8 +376,9 @@ main.container {
   border: 1px dashed var(--border);
   border-radius: 6px;
   font-family: var(--font-sans);
-  font-size: 0.85rem;
-  line-height: 1.8;
+  font-size: 0.82rem;
+  line-height: 1.9;
+  letter-spacing: 0.01em;
 }
 .toc-title {
   margin: 0 0 0.4rem;
@@ -408,15 +409,15 @@ main.container {
 
 @media (min-width: 74rem) {
   .toc {
-    float: left;
+    float: right;
     position: sticky;
     top: 2.5rem;
     width: 12.5rem;
-    margin: 0 0 0 -15rem;
+    margin: 0 -15rem 0 0;
     border: none;
     border-radius: 0;
-    padding: 0 0 0 1rem;
-    border-left: 1px solid var(--border);
+    padding: 0 1rem 0 0;
+    border-right: 1px solid var(--border);
   }
 }
 
