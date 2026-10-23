@@ -30,5 +30,3 @@ aerogela.com 重新启动
 
 emallsoon.com 重新启动
 
-
-![ss](./imgs/beautiful_girl_1.jpg)
