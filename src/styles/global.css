@@ -474,4 +474,10 @@ main.container {
   html { font-size: 16px; }
   .site-header { padding: 1.8rem 0 1.4rem; }
   .post-list li { flex-direction: column; gap: 0.1rem; }
+  .post-list a {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    overflow-wrap: anywhere;
+  }
 }
