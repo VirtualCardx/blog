@@ -91,7 +91,7 @@ body {
   font-size: 1rem;
   line-height: var(--line-height);
   letter-spacing: 0.018em;
-  font-feature-settings: 'kern', 'liga', 'onum';
+  font-feature-settings: 'kern', 'liga';
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -355,6 +355,7 @@ main.container {
 .post-body {
   text-align: justify;
   hanging-punctuation: first allow-end;
+  font-feature-settings: 'kern', 'liga', 'onum';
 }
 
 .post-nav {
