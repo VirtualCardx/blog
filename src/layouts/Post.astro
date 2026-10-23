@@ -63,8 +63,24 @@ const formatDate = (d: Date) =>
   function initToc() {
     tocObserver?.disconnect();
 
+    const toc = document.querySelector('.toc');
     const tocLinks = document.querySelectorAll<HTMLAnchorElement>('.toc a');
     if (tocLinks.length === 0) return;
+
+    if (toc && !toc.dataset.clickBound) {
+      toc.dataset.clickBound = '1';
+      toc.addEventListener('click', (e) => {
+        const a = (e.target as Element).closest('a');
+        if (!a || !a.hash) return;
+        const id = decodeURIComponent(a.hash.slice(1));
+        const el = document.getElementById(id);
+        if (!el) return;
+        e.preventDefault();
+        const smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        el.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto' });
+        history.replaceState(null, '', a.hash);
+      });
+    }
 
     const byId = new Map<string, HTMLAnchorElement>();
     tocLinks.forEach((a) => byId.set(decodeURIComponent(a.hash.slice(1)), a));

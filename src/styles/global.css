@@ -357,6 +357,9 @@ main.container {
   hanging-punctuation: first allow-end;
   font-feature-settings: 'kern', 'liga', 'onum';
 }
+.post-body :is(h2, h3, h4) {
+  scroll-margin-top: 1.5rem;
+}
 
 .post-nav {
   margin-top: 4rem;
