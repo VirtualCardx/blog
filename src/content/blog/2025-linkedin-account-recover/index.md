@@ -20,19 +20,7 @@ draft: false
 
 
 
-<p class="wp-block-paragraph">注册X账号，在X里，主动私信@linkedinhelp账号，提供绑定的邮箱，等待1-3天，会收到解封邮件，按照解封邮件里的指引，提交个人真实证件</p>
-
-
-
-<figure class="gb-block-image gb-block-image-32805148"><img src="./imgs/img1.jpg" alt="" width="2028" height="900" loading="lazy"></figure>
-
-
-
-
-
-
-
-<h2 class="wp-block-heading">领英解封方法方法2：使用邮件系统与linkedin客服联系</h2>
+<p class="wp-block-paragraph">注册X账号，在X里，主动私信@linkedinhelp账号，提供绑定的邮箱，等待1-3天，会收到解封邮件，按照解封邮件里的指引，提交个人真实证件</p><h2 class="wp-block-heading">领英解封方法方法2：使用邮件系统与linkedin客服联系</h2>
 
 
 
@@ -116,47 +104,15 @@ draft: false
 
 
 
-<p class="wp-block-paragraph">点击链接 <a href="https://www.linkedin.com/help/linkedin/answer/a1377116" rel="nofollow noopener" target="_blank">https://www.linkedin.com/help/linkedin/answer/a1377116</a></p>
+<p class="wp-block-paragraph">点击链接 <a href="https://www.linkedin.com/help/linkedin/answer/a1377116" rel="nofollow noopener" target="_blank">https://www.linkedin.com/help/linkedin/answer/a1377116</a></p><p class="wp-block-paragraph">点击红色框中的链接</p>
 
 
 
-<figure class="wp-block-image size-large"><img src="./imgs/img2.png" alt="" width="1024" height="996" loading="lazy"></figure>
+<p class="wp-block-paragraph">跳转到要求发验证码的页面</p><p class="wp-block-paragraph">输入linkedin绑定的邮箱账号，点击next</p><p class="has-contrast-color has-text-color has-link-color wp-elements-de2067a7c0533e2c8ef08fbe8b65f343 wp-block-paragraph">点击 <strong>Can’t access this email?</strong></p>
 
 
 
-<p class="wp-block-paragraph">点击红色框中的链接</p>
-
-
-
-<p class="wp-block-paragraph">跳转到要求发验证码的页面</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="./imgs/img3.png" alt="" width="1024" height="510" loading="lazy"></figure>
-
-
-
-<p class="wp-block-paragraph">输入linkedin绑定的邮箱账号，点击next</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="./imgs/img4.png" alt="" width="1024" height="768" loading="lazy"></figure>
-
-
-
-<p class="has-contrast-color has-text-color has-link-color wp-elements-de2067a7c0533e2c8ef08fbe8b65f343 wp-block-paragraph">点击 <strong>Can’t access this email?</strong></p>
-
-
-
-<p class="wp-block-paragraph">会让你填写新的邮箱，填写后，点下一步，到下面界面</p>
-
-
-
-<figure class="wp-block-image size-full"><img src="./imgs/img5.png" alt="" width="1024" height="492" loading="lazy"></figure>
-
-
-
-<p class="wp-block-paragraph">在这里就可以扫描护照或者身份证来验证身份了</p>
+<p class="wp-block-paragraph">会让你填写新的邮箱，填写后，点下一步，到下面界面</p><p class="wp-block-paragraph">在这里就可以扫描护照或者身份证来验证身份了</p>
 
 
 

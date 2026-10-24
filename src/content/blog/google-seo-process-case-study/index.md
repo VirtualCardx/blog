@@ -10,19 +10,9 @@ draft: false
 <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
 <p class="wp-block-paragraph">2025年5月29日总结想被收录，链接手动提交吧</p>
 </blockquote>
-<p class="wp-block-paragraph">最近GSC中，页面收录情况极差，刚过50%，如下如所示</p>
-<figure class="wp-block-image size-large"><img src="./imgs/img14.jpg" alt="" width="1024" height="437" loading="lazy"></figure>
-<p class="wp-block-paragraph">情况惨不忍睹，出词也很差，不到14个，我特么上传了70多篇笔记，出了14个词，谷歌你是在侮辱我吗？我是技术人员，这是对我赤裸裸的侮辱，我特么必须搞掉你!</p>
+<p class="wp-block-paragraph">最近GSC中，页面收录情况极差，刚过50%，如下如所示</p><p class="wp-block-paragraph">情况惨不忍睹，出词也很差，不到14个，我特么上传了70多篇笔记，出了14个词，谷歌你是在侮辱我吗？我是技术人员，这是对我赤裸裸的侮辱，我特么必须搞掉你!</p>
 <p class="wp-block-paragraph">据我判断，问题可能主要出在Rank Math SEO插件上，有些项目我可能设置的有问题，特别是那些标注noindex问题的页面</p>
-<h2 class="wp-block-heading">一、被“noindex”标记排除</h2>
-<figure class="wp-block-image size-large"><img src="./imgs/img15.jpg" alt="" width="1024" height="766" loading="lazy"></figure>
-<p class="wp-block-paragraph">转到Rank Math SEO插件界面，找到对应选项 Tag Archives Robots Meta</p>
-<figure class="wp-block-image size-large"><img src="./imgs/img16.jpg" alt="" width="1024" height="836" loading="lazy"></figure>
-<p class="wp-block-paragraph">这里有个重要的设置项，先设置成这样是符合要求的，意思是允许tag被google收录，也可以直接关掉</p>
-<figure class="wp-block-image size-large"><img src="./imgs/img17.jpg" alt="" width="1024" height="754" loading="lazy"></figure>
-<p class="wp-block-paragraph">这样默认也是允许收录的</p>
-<figure class="wp-block-image size-large"><img src="./imgs/img18.jpg" alt="" width="1024" height="644" loading="lazy"></figure>
-<p class="wp-block-paragraph">修复完毕，在GSC中执行重新验证，继续下一项</p>
+<h2 class="wp-block-heading">一、被“noindex”标记排除</h2><p class="wp-block-paragraph">转到Rank Math SEO插件界面，找到对应选项 Tag Archives Robots Meta</p><p class="wp-block-paragraph">这里有个重要的设置项，先设置成这样是符合要求的，意思是允许tag被google收录，也可以直接关掉</p><p class="wp-block-paragraph">这样默认也是允许收录的</p><p class="wp-block-paragraph">修复完毕，在GSC中执行重新验证，继续下一项</p>
 <h2 class="wp-block-heading">二、已抓取 &#8211; 尚未编入索引</h2>
 <p class="wp-block-paragraph">这里测试了以下，基本都符合要求，重新执行下验证，过</p>
 <h2 class="wp-block-heading">三、已抓取 &#8211; 尚未编入索引</h2>

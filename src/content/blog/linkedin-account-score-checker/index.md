@@ -148,12 +148,4 @@ draft: false
 
 
 
-<p class="wp-block-paragraph">可以去检测一下自己账号的评分，评分越高，账号越优质<br>例如：少于30分帐号，不开会员情况下，只能发送5个好友请求！（即使是发送的请求多，对方接收不到也看不到）<br>如果你的SSI (social selling index)分数够高的话，不开会员也可以加到200人每周。</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="./imgs/img21.png" alt="" width="1024" height="671" loading="lazy"></figure>
-
-
-
-<p class="wp-block-paragraph">如图所示，这个账号健康度为20</p>
+<p class="wp-block-paragraph">可以去检测一下自己账号的评分，评分越高，账号越优质<br>例如：少于30分帐号，不开会员情况下，只能发送5个好友请求！（即使是发送的请求多，对方接收不到也看不到）<br>如果你的SSI (social selling index)分数够高的话，不开会员也可以加到200人每周。</p><p class="wp-block-paragraph">如图所示，这个账号健康度为20</p>

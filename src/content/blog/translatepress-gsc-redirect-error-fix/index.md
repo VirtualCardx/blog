@@ -7,22 +7,12 @@ tags: ["技术杂谈"]
 draft: false
 ---
 
-<p class="wp-block-paragraph">最近在使用TranslatePress给网站添加多语言支持，添加英语后突然发现GSC中出现了大量的Redirect error，如下图所示</p>
-<figure class="wp-block-image size-large"><img src="./imgs/img29.jpg" alt="" width="1024" height="546" loading="lazy"></figure>
-<p class="wp-block-paragraph">这里一看错误全部出现在英语页面</p>
-<figure class="wp-block-image size-large"><img src="./imgs/img30.jpg" alt="" width="1024" height="611" loading="lazy"></figure>
-<p class="wp-block-paragraph">初步判断是多语言插件导致的错误</p>
-<p class="wp-block-paragraph">使用curl测试</p>
-<figure class="wp-block-image size-large"><img src="./imgs/img31.jpg" alt="" width="1024" height="161" loading="lazy"></figure>
-<p class="wp-block-paragraph">服务器报 301 代码，意思是重定向</p>
-<p class="wp-block-paragraph">为了处理这个问题，我在TranslatePress后台翻找，终于找到了跟SEO相关的设置项</p>
-<figure class="wp-block-image size-large"><img src="./imgs/img32.jpg" alt="" width="1024" height="545" loading="lazy"></figure>
-<p class="wp-block-paragraph">这里最后一项</p>
+<p class="wp-block-paragraph">最近在使用TranslatePress给网站添加多语言支持，添加英语后突然发现GSC中出现了大量的Redirect error，如下图所示</p><p class="wp-block-paragraph">这里一看错误全部出现在英语页面</p><p class="wp-block-paragraph">初步判断是多语言插件导致的错误</p>
+<p class="wp-block-paragraph">使用curl测试</p><p class="wp-block-paragraph">服务器报 301 代码，意思是重定向</p>
+<p class="wp-block-paragraph">为了处理这个问题，我在TranslatePress后台翻找，终于找到了跟SEO相关的设置项</p><p class="wp-block-paragraph">这里最后一项</p>
 <p class="wp-block-paragraph">Load legacy SEO Pack Add-On</p>
 <p class="wp-block-paragraph">In case the recent migration to the new slug rewrite is causing trouble, set this to Yes to use the old method<br />勾选后</p>
-<p class="wp-block-paragraph">再次使用curl测试</p>
-<figure class="wp-block-image size-large"><img src="./imgs/img33.jpg" alt="" width="1024" height="125" loading="lazy"></figure>
-<p class="wp-block-paragraph">bingo，问题解决</p>
+<p class="wp-block-paragraph">再次使用curl测试</p><p class="wp-block-paragraph">bingo，问题解决</p>
 <p class="wp-block-paragraph">在GSC后台再次提交验证</p>
 <p class="wp-block-paragraph">
 <hr />

@@ -5,10 +5,7 @@ pubDate: 2025-12-02
 updatedDate: 2026-10-24
 tags: ["技术杂谈"]
 draft: false
----
-
-<figure class="wp-block-image size-full"><img src="./imgs/img12.jpg" alt="" width="750" height="473" loading="lazy"></figure>
-<p class="wp-block-paragraph">
+---<p class="wp-block-paragraph">
 <h2 class="wp-block-heading" id="github-">1. 初始操作</h2>
 <pre class="wp-block-code"><code>echo "# supereditor" &gt;&gt; README.md
 

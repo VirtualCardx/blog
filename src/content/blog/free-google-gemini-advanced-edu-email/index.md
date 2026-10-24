@@ -8,15 +8,7 @@ draft: false
 ---
 
 <div class="notice"><p><strong>资格更正（2026-09-15）：</strong>Google 的学生优惠仅适用于官方条款所列地区和通过验证的合资格学生。本文不建议、也不应指导注册或购买教育邮箱来绕过资格验证；请只用本人真实学校账号，并在官方学生优惠页确认地区、截止日期、付款方式和续费条件。</p></div><hr><h2>2026 年 9 月 15 日复核说明</h2><p>本文涉及的价格、套餐、资格、可用地区、费率、余额短码、链上费用和服务状态都可能随时变化。本轮以 <a href="https://one.google.com/ai-student" target="_blank" rel="nofollow noopener">Google student-offer terms</a> 作为官方复核入口；文中的历史数字或使用体验只反映其标注日期，不构成当前报价、可用性或支付成功保证。下单、充值、迁移资产或发送链上交易前，请在官方结账页、运营商 App/客服或链上钱包的最终确认页再次核对地区、税费、网络和期限。</p>
-<p class="wp-block-paragraph">今天给大家分享如何免费领取谷歌Gemini高级版，同时还会送上美edu邮箱注册攻略。重点是，无需付费购买邮箱，也不用冒险使用不明共享资源！</p>
-
-
-
-<figure class="gb-block-image gb-block-image-c57e915c"><img src="./imgs/img8.jpg" alt="" width="1200" height="630" loading="lazy"></figure>
-
-
-
-<h2 class="wp-block-heading">一、为什么要开通Gemini高级版？</h2>
+<p class="wp-block-paragraph">今天给大家分享如何免费领取谷歌Gemini高级版，同时还会送上美edu邮箱注册攻略。重点是，无需付费购买邮箱，也不用冒险使用不明共享资源！</p><h2 class="wp-block-heading">一、为什么要开通Gemini高级版？</h2>
 
 
 

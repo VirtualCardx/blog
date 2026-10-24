@@ -144,15 +144,7 @@ draft: false
 </li>
 </ul>
 </li>
-</ol>
-
-
-
-<figure class="wp-block-image size-large"><img src="./imgs/img35.png" alt="" width="1024" height="615" loading="lazy"></figure>
-
-
-
-<h4 class="wp-block-heading"><strong>Chrome浏览器设置</strong></h4>
+</ol><h4 class="wp-block-heading"><strong>Chrome浏览器设置</strong></h4>
 
 
 

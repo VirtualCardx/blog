@@ -12,15 +12,7 @@ draft: false
 
 
 
-<p class="wp-block-paragraph">官网网址：<a href="https://www.racknerd.com/" rel="nofollow noopener" target="_blank">https://www.racknerd.com/</a></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="./imgs/img27.jpg" alt="" width="1024" height="602" loading="lazy"></figure>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<p class="wp-block-paragraph">官网网址：<a href="https://www.racknerd.com/" rel="nofollow noopener" target="_blank">https://www.racknerd.com/</a></p><hr class="wp-block-separator has-alpha-channel-opacity"/>
 
 
 

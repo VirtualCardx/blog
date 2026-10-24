@@ -7,16 +7,7 @@ tags: ["技术杂谈"]
 draft: false
 ---
 
-<p><strong>核验说明（2026年9月）：第三方数据库、贸易数据和搜索结果可能不完整、滞后或受许可限制，不能单独证明资信或制裁合规。应记录查询日期和来源，对注册信息、受益人、制裁/限制方与付款账户做交叉核验，并遵守适用的数据保护和数据库使用条款。</strong> <a href="https://pacer.uscourts.gov/" target="_blank" rel="nofollow noopener">PACER</a> · <a href="https://www.eurojust.europa.eu/" target="_blank" rel="nofollow noopener">Eurojust</a></p>
-<figure class="wp-block-image size-large"><img src="./imgs/img7.png" alt="" width="1024" height="691" loading="lazy"></figure>
-
-
-
-
-
-
-
-<p class="wp-block-paragraph">我们会收到客户的报价，可能就简单的一句give me price list，或者我们在跟客户谈到付款方式的时候僵持不下，或者开发客户时，那么通过对客户的背调，我们可以了解客户的产品类目、采购情况、资信情况等，确认客户是否是我们的对标客户、采取何种付款方式等相应措施。</p>
+<p><strong>核验说明（2026年9月）：第三方数据库、贸易数据和搜索结果可能不完整、滞后或受许可限制，不能单独证明资信或制裁合规。应记录查询日期和来源，对注册信息、受益人、制裁/限制方与付款账户做交叉核验，并遵守适用的数据保护和数据库使用条款。</strong> <a href="https://pacer.uscourts.gov/" target="_blank" rel="nofollow noopener">PACER</a> · <a href="https://www.eurojust.europa.eu/" target="_blank" rel="nofollow noopener">Eurojust</a></p><p class="wp-block-paragraph">我们会收到客户的报价，可能就简单的一句give me price list，或者我们在跟客户谈到付款方式的时候僵持不下，或者开发客户时，那么通过对客户的背调，我们可以了解客户的产品类目、采购情况、资信情况等，确认客户是否是我们的对标客户、采取何种付款方式等相应措施。</p>
 
 
 

@@ -5,17 +5,7 @@ pubDate: 2025-07-20
 updatedDate: 2026-10-24
 tags: ["技术杂谈"]
 draft: false
----
-
-<figure class="wp-block-image size-large"><img src="./imgs/img22.jpg" alt="" width="1024" height="768" loading="lazy"></figure>
-
-
-
-
-
-
-
-<ul class="wp-block-list">
+---<ul class="wp-block-list">
 <li><strong>ChatGPT (OpenAI)、Gemini（Google）和 Claude（Anthropic）已正式在 API 层面内置联网搜索</strong>，均以「服务器端检索工具」的形式提供，调用简单、自动返回带引用的实时内容。</li>
 
 

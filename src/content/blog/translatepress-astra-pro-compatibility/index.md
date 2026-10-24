@@ -44,9 +44,7 @@ draft: false
 &lt;/div>
 &lt;/div></code></pre>
 <p class="wp-block-paragraph">如何解决该问题？</p>
-<p class="wp-block-paragraph">打开translatepress后台设置页面，切换到advanced选项卡，点击debug选项卡，勾选Disable translation for gettext strings，如下图所示：</p>
-<figure class="gb-block-image gb-block-image-3e80578f"><img src="./imgs/img28.jpg" alt="" width="2536" height="1374" loading="lazy"></figure>
-<hr />
+<p class="wp-block-paragraph">打开translatepress后台设置页面，切换到advanced选项卡，点击debug选项卡，勾选Disable translation for gettext strings，如下图所示：</p><hr />
 <section id="vcx-seo-expansion-20260704">
 <h2>TranslatePress与Astra Pro主题兼容性问题：补充说明与使用建议</h2>
 <p>这类资源型内容适合收藏，但也需要定期复核。工具、平台、链接和规则都会变化，尤其是免费资源、临时服务、第三方平台，经常会出现失效、改版或限制地区访问的情况。</p>

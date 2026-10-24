@@ -35,19 +35,7 @@ draft: false
 
 
 <li>开通网站：https://dash.domain.digitalplat.org/auth/register</li>
-</ul>
-
-
-
-<figure class="gb-block-image gb-block-image-dd95d413"><img src="./imgs/img9.jpg" alt="" width="2560" height="1508" loading="lazy"></figure>
-
-
-
-
-
-
-
-<h2 class="wp-block-heading" id="-">2. de5.net 免费二级域名 ★★★★</h2>
+</ul><h2 class="wp-block-heading" id="-">2. de5.net 免费二级域名 ★★★★</h2>
 
 
 
@@ -69,19 +57,7 @@ draft: false
 
 
 <li>开通网站：https://www.dnshe.com</li>
-</ul>
-
-
-
-<figure class="gb-block-image gb-block-image-bf21c646"><img src="./imgs/img10.jpg" alt="" width="2560" height="1653" loading="lazy"></figure>
-
-
-
-
-
-
-
-<h2 class="wp-block-heading">3. L53.net 免费二级域名 ★★★</h2>
+</ul><h2 class="wp-block-heading">3. L53.net 免费二级域名 ★★★</h2>
 
 
 
@@ -103,19 +79,7 @@ draft: false
 
 
 <li>开通网站：<a>https://www.l53.net/</a></li>
-</ul>
-
-
-
-<figure class="gb-block-image gb-block-image-92cad48b"><img src="./imgs/img11.jpg" alt="" width="2560" height="1773" loading="lazy"></figure>
-
-
-
-
-
-
-
-<h2 class="wp-block-heading">4. gname.com 免费二级域名 ★★</h2>
+</ul><h2 class="wp-block-heading">4. gname.com 免费二级域名 ★★</h2>
 
 
 

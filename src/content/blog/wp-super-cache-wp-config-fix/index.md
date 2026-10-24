@@ -18,9 +18,7 @@ draft: false
 <p class="wp-block-paragraph">回到 WordPress 根目录，在wp-config.php文件中ABSPATH之前添加以下两行代码：</p>
 <pre class="wp-block-code"><code>define('WP_CACHE', true);
 define('WPCACHEHOME','/var/www/html/wordpress/wp-content/plugins/wp-super-cache/');</code></pre>
-<p class="wp-block-paragraph">保存后重新访问后台。 </p>
-<figure class="gb-block-image gb-block-image-39206b9e"><img src="./imgs/img37.jpg" alt="" width="900" height="675" loading="lazy"></figure>
-<hr />
+<p class="wp-block-paragraph">保存后重新访问后台。 </p><hr />
 <section id="vcx-seo-expansion-20260704">
 <h2>WordPress安装WP Super Cache插件后出现“无法更新 wp-config.php“问题的解决方法：实操前的检查清单</h2>
 <p>技术教程类内容最怕照抄命令却忽略环境差异。不同系统版本、Web服务器、插件组合、权限设置都会影响最终结果。操作前建议先记录当前配置，必要时做快照或备份。这样即使步骤出错，也能快速回滚。</p>

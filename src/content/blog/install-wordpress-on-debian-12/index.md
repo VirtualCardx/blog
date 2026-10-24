@@ -5,13 +5,7 @@ pubDate: 2025-02-06
 updatedDate: 2026-10-24
 tags: ["技术杂谈"]
 draft: false
----
-
-<figure class="wp-block-image size-full"><img src="./imgs/img20.webp" alt="" width="720" height="405" loading="lazy"></figure>
-
-
-
-<h2 class="wp-block-heading">第一步：ssh登陆到Debian操作系统</h2>
+---<h2 class="wp-block-heading">第一步：ssh登陆到Debian操作系统</h2>
 
 
 

@@ -7,16 +7,7 @@ tags: ["技术杂谈"]
 draft: false
 ---
 
-<p><strong>核验说明（2026年9月）：选品金额、获客量、首单周期和订金比例会受品类、合同、贸易术语、目的国法规和客户资信影响，本文数字不是承诺或通用条款。首次合作前应核验客户、签署书面订单/合同，并按产品和目的地确认出口、税务、制裁及付款合规要求。</strong> <a href="https://www.linkedin.com/legal/professional-community-policies" target="_blank" rel="nofollow noopener">LinkedIn Professional Community Policies</a></p>
-<figure class="wp-block-image size-large"><img src="./imgs/img19.png" alt="" width="1024" height="697" loading="lazy"></figure>
-
-
-
-
-
-
-
-<p class="wp-block-paragraph">在全球化不断加深的今天，外贸早已不是大公司的专利。</p>
+<p><strong>核验说明（2026年9月）：选品金额、获客量、首单周期和订金比例会受品类、合同、贸易术语、目的国法规和客户资信影响，本文数字不是承诺或通用条款。首次合作前应核验客户、签署书面订单/合同，并按产品和目的地确认出口、税务、制裁及付款合规要求。</strong> <a href="https://www.linkedin.com/legal/professional-community-policies" target="_blank" rel="nofollow noopener">LinkedIn Professional Community Policies</a></p><p class="wp-block-paragraph">在全球化不断加深的今天，外贸早已不是大公司的专利。</p>
 
 
 

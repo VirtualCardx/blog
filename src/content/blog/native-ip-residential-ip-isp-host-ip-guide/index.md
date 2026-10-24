@@ -8,15 +8,7 @@ draft: false
 ---
 
 <aside><p><strong>核验说明（2026-09-15）</strong>：本文包含历史示例或经验性描述。产品资格、价格、配额、网络表现、政策和安全要求可能变化；请以链接的当前官方资料为准，并在生产使用前自行测试与评估。 <a href="https://www.iana.org/assignments/as-numbers/as-numbers.xhtml" rel="nofollow noopener" target="_blank">官方参考</a>。</p></aside>
-<p class="wp-block-paragraph">互联网信息鱼龙混杂，各种错误的信息跟正确的信息一样在广泛传播，这里一篇文章彻底弄清楚原生IP、住宅IP、ISP IP与host IP的区别。</p>
-
-
-
-<figure class="gb-block-image gb-block-image-85e90c72"><img src="./imgs/img23.jpg" alt="" width="1024" height="768" loading="lazy"></figure>
-
-
-
-<h2 class="wp-block-heading">一、打破原生 IP 认知迷障</h2>
+<p class="wp-block-paragraph">互联网信息鱼龙混杂，各种错误的信息跟正确的信息一样在广泛传播，这里一篇文章彻底弄清楚原生IP、住宅IP、ISP IP与host IP的区别。</p><h2 class="wp-block-heading">一、打破原生 IP 认知迷障</h2>
 
 
 
