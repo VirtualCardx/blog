@@ -45,7 +45,7 @@ draft: false
 &lt;/div></code></pre>
 <p class="wp-block-paragraph">如何解决该问题？</p>
 <p class="wp-block-paragraph">打开translatepress后台设置页面，切换到advanced选项卡，点击debug选项卡，勾选Disable translation for gettext strings，如下图所示：</p>
-<figure class="gb-block-image gb-block-image-3e80578f"><img decoding="async" width="2536" height="1374" class="gb-image gb-image-3e80578f lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/03/translatepress2.jpg" alt="" title="translatepress2" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/03/translatepress2.jpg 2536w, https://virtualcardx.com/wp-content/uploads/2025/03/translatepress2-300x163.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/03/translatepress2-1024x555.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/03/translatepress2-768x416.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/03/translatepress2-1536x832.jpg 1536w, https://virtualcardx.com/wp-content/uploads/2025/03/translatepress2-2048x1110.jpg 2048w, https://virtualcardx.com/wp-content/uploads/2025/03/translatepress2-18x10.jpg 18w" data-sizes="(max-width: 2536px) 100vw, 2536px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 2536px; --smush-placeholder-aspect-ratio: 2536/1374;"></figure>
+<figure class="gb-block-image gb-block-image-3e80578f"><img src="./imgs/img28.jpg" alt="" width="2536" height="1374" loading="lazy"></figure>
 <hr />
 <section id="vcx-seo-expansion-20260704">
 <h2>TranslatePress与Astra Pro主题兼容性问题：补充说明与使用建议</h2>

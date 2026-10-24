@@ -7,7 +7,7 @@ tags: ["技术杂谈"]
 draft: false
 ---
 
-<figure class="wp-block-image size-full"><img decoding="async" width="864" height="576" data-src="https://virtualcardx.com/wp-content/uploads/2025/02/keywords.jpg" alt="" class="wp-image-313 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/02/keywords.jpg 864w, https://virtualcardx.com/wp-content/uploads/2025/02/keywords-300x200.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/02/keywords-768x512.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/02/keywords-600x400.jpg 600w" data-sizes="(max-width: 864px) 100vw, 864px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 864px; --smush-placeholder-aspect-ratio: 864/576;" /></figure>
+<figure class="wp-block-image size-full"><img src="./imgs/img13.jpg" alt="" width="864" height="576" loading="lazy"></figure>
 
 
 

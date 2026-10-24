@@ -15,7 +15,7 @@ draft: false
 
 
 
-<figure class="gb-block-image gb-block-image-84b647da"><img decoding="async" width="1091" height="524" class="gb-image gb-image-84b647da lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/02/Check-Sitemap-generation-in-Rank-Math.png" alt="在 Rank Math 中检查sitemap生成情况" title="Check-Sitemap-generation-in-Rank-Math" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/02/Check-Sitemap-generation-in-Rank-Math.png 1091w, https://virtualcardx.com/wp-content/uploads/2025/02/Check-Sitemap-generation-in-Rank-Math-300x144.png 300w, https://virtualcardx.com/wp-content/uploads/2025/02/Check-Sitemap-generation-in-Rank-Math-1024x492.png 1024w, https://virtualcardx.com/wp-content/uploads/2025/02/Check-Sitemap-generation-in-Rank-Math-768x369.png 768w, https://virtualcardx.com/wp-content/uploads/2025/02/Check-Sitemap-generation-in-Rank-Math-600x288.png 600w" data-sizes="(max-width: 1091px) 100vw, 1091px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1091px; --smush-placeholder-aspect-ratio: 1091/524;" /></figure>
+<figure class="gb-block-image gb-block-image-84b647da"><img src="./imgs/img24.png" alt="在 Rank Math 中检查sitemap生成情况" width="1091" height="524" loading="lazy"></figure>
 
 
 
@@ -31,7 +31,7 @@ draft: false
 
 
 
-<figure class="gb-block-image gb-block-image-b496c493"><img decoding="async" width="1015" height="238" class="gb-image gb-image-b496c493 lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/02/Rank-Math-Sitemap-notice-on-Nginx-server.jpg" alt="Nginx 服务器上的rank math sitemap通知" title="Rank-Math-Sitemap-notice-on-Nginx-server" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/02/Rank-Math-Sitemap-notice-on-Nginx-server.jpg 1015w, https://virtualcardx.com/wp-content/uploads/2025/02/Rank-Math-Sitemap-notice-on-Nginx-server-300x70.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/02/Rank-Math-Sitemap-notice-on-Nginx-server-768x180.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/02/Rank-Math-Sitemap-notice-on-Nginx-server-600x141.jpg 600w" data-sizes="(max-width: 1015px) 100vw, 1015px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1015px; --smush-placeholder-aspect-ratio: 1015/238;" /></figure>
+<figure class="gb-block-image gb-block-image-b496c493"><img src="./imgs/img25.jpg" alt="Nginx 服务器上的rank math sitemap通知" width="1015" height="238" loading="lazy"></figure>
 
 
 
@@ -88,7 +88,7 @@ rewrite ^/(&#91;a-z]+)?-sitemap\.xsl$ /index.php?xsl=$1 last;
 
 
 
-<figure class="gb-block-image gb-block-image-2647d608"><img decoding="async" width="2406" height="918" class="gb-image gb-image-2647d608 lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/02/links-per-sitemap-2.jpg" alt="刷新sitemap setting" title="links-per-sitemap-2" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/02/links-per-sitemap-2.jpg 2406w, https://virtualcardx.com/wp-content/uploads/2025/02/links-per-sitemap-2-300x114.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/02/links-per-sitemap-2-1024x391.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/02/links-per-sitemap-2-768x293.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/02/links-per-sitemap-2-1536x586.jpg 1536w, https://virtualcardx.com/wp-content/uploads/2025/02/links-per-sitemap-2-2048x781.jpg 2048w, https://virtualcardx.com/wp-content/uploads/2025/02/links-per-sitemap-2-1320x504.jpg 1320w, https://virtualcardx.com/wp-content/uploads/2025/02/links-per-sitemap-2-600x229.jpg 600w" data-sizes="(max-width: 2406px) 100vw, 2406px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 2406px; --smush-placeholder-aspect-ratio: 2406/918;" /></figure>
+<figure class="gb-block-image gb-block-image-2647d608"><img src="./imgs/img26.jpg" alt="刷新sitemap setting" width="2406" height="918" loading="lazy"></figure>
 
 
 

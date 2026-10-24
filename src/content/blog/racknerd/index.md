@@ -16,7 +16,7 @@ draft: false
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="602" data-src="https://virtualcardx.com/wp-content/uploads/2025/05/racknerd-1024x602.jpg" alt="" class="wp-image-856 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/05/racknerd-1024x602.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/05/racknerd-300x176.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/05/racknerd-768x452.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/05/racknerd-1536x903.jpg 1536w, https://virtualcardx.com/wp-content/uploads/2025/05/racknerd-2048x1204.jpg 2048w, https://virtualcardx.com/wp-content/uploads/2025/05/racknerd-18x12.jpg 18w" data-sizes="(max-width: 1024px) 100vw, 1024px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1024px; --smush-placeholder-aspect-ratio: 1024/602;" /></figure>
+<figure class="wp-block-image size-large"><img src="./imgs/img27.jpg" alt="" width="1024" height="602" loading="lazy"></figure>
 
 
 

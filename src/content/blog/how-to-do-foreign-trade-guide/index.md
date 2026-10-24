@@ -8,7 +8,7 @@ draft: false
 ---
 
 <p><strong>核验说明（2026年9月）：选品金额、获客量、首单周期和订金比例会受品类、合同、贸易术语、目的国法规和客户资信影响，本文数字不是承诺或通用条款。首次合作前应核验客户、签署书面订单/合同，并按产品和目的地确认出口、税务、制裁及付款合规要求。</strong> <a href="https://www.linkedin.com/legal/professional-community-policies" target="_blank" rel="nofollow noopener">LinkedIn Professional Community Policies</a></p>
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="697" data-src="https://virtualcardx.com/wp-content/uploads/2025/06/b-1024x697.png" alt="" class="wp-image-1088 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/06/b-1024x697.png 1024w, https://virtualcardx.com/wp-content/uploads/2025/06/b-300x204.png 300w, https://virtualcardx.com/wp-content/uploads/2025/06/b-768x523.png 768w, https://virtualcardx.com/wp-content/uploads/2025/06/b-18x12.png 18w, https://virtualcardx.com/wp-content/uploads/2025/06/b.png 1536w" data-sizes="(max-width: 1024px) 100vw, 1024px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1024px; --smush-placeholder-aspect-ratio: 1024/697;" /></figure>
+<figure class="wp-block-image size-large"><img src="./imgs/img19.png" alt="" width="1024" height="697" loading="lazy"></figure>
 
 
 

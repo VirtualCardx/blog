@@ -39,7 +39,7 @@ draft: false
 
 
 
-<figure class="gb-block-image gb-block-image-dd95d413"><img decoding="async" width="2560" height="1508" class="gb-image gb-image-dd95d413 lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/12/us.kg_-scaled.jpg" alt="" title="us.kg" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/12/us.kg_-scaled.jpg 2560w, https://virtualcardx.com/wp-content/uploads/2025/12/us.kg_-300x177.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/12/us.kg_-1024x603.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/12/us.kg_-768x452.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/12/us.kg_-1536x905.jpg 1536w, https://virtualcardx.com/wp-content/uploads/2025/12/us.kg_-2048x1207.jpg 2048w, https://virtualcardx.com/wp-content/uploads/2025/12/us.kg_-18x12.jpg 18w" data-sizes="(max-width: 2560px) 100vw, 2560px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 2560px; --smush-placeholder-aspect-ratio: 2560/1508;"></figure>
+<figure class="gb-block-image gb-block-image-dd95d413"><img src="./imgs/img9.jpg" alt="" width="2560" height="1508" loading="lazy"></figure>
 
 
 
@@ -73,7 +73,7 @@ draft: false
 
 
 
-<figure class="gb-block-image gb-block-image-bf21c646"><img decoding="async" width="2560" height="1653" class="gb-image gb-image-bf21c646 lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/12/de5.net_-scaled.jpg" alt="" title="de5.net" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/12/de5.net_-scaled.jpg 2560w, https://virtualcardx.com/wp-content/uploads/2025/12/de5.net_-300x194.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/12/de5.net_-1024x661.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/12/de5.net_-768x496.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/12/de5.net_-1536x992.jpg 1536w, https://virtualcardx.com/wp-content/uploads/2025/12/de5.net_-2048x1322.jpg 2048w, https://virtualcardx.com/wp-content/uploads/2025/12/de5.net_-18x12.jpg 18w" data-sizes="(max-width: 2560px) 100vw, 2560px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 2560px; --smush-placeholder-aspect-ratio: 2560/1653;"></figure>
+<figure class="gb-block-image gb-block-image-bf21c646"><img src="./imgs/img10.jpg" alt="" width="2560" height="1653" loading="lazy"></figure>
 
 
 
@@ -107,7 +107,7 @@ draft: false
 
 
 
-<figure class="gb-block-image gb-block-image-92cad48b"><img decoding="async" width="2560" height="1773" class="gb-image gb-image-92cad48b lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/12/l53-scaled.jpg" alt="" title="l53" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/12/l53-scaled.jpg 2560w, https://virtualcardx.com/wp-content/uploads/2025/12/l53-300x208.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/12/l53-1024x709.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/12/l53-768x532.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/12/l53-1536x1064.jpg 1536w, https://virtualcardx.com/wp-content/uploads/2025/12/l53-2048x1419.jpg 2048w, https://virtualcardx.com/wp-content/uploads/2025/12/l53-18x12.jpg 18w" data-sizes="(max-width: 2560px) 100vw, 2560px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 2560px; --smush-placeholder-aspect-ratio: 2560/1773;"></figure>
+<figure class="gb-block-image gb-block-image-92cad48b"><img src="./imgs/img11.jpg" alt="" width="2560" height="1773" loading="lazy"></figure>
 
 
 

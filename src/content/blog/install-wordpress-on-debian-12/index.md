@@ -7,7 +7,7 @@ tags: ["技术杂谈"]
 draft: false
 ---
 
-<figure class="wp-block-image size-full"><img decoding="async" width="720" height="405" data-src="https://virtualcardx.com/wp-content/uploads/2025/02/debian.webp" alt="" class="wp-image-339 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/02/debian.webp 720w, https://virtualcardx.com/wp-content/uploads/2025/02/debian-300x169.webp 300w, https://virtualcardx.com/wp-content/uploads/2025/02/debian-600x338.webp 600w" data-sizes="(max-width: 720px) 100vw, 720px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 720px; --smush-placeholder-aspect-ratio: 720/405;" /></figure>
+<figure class="wp-block-image size-full"><img src="./imgs/img20.webp" alt="" width="720" height="405" loading="lazy"></figure>
 
 
 

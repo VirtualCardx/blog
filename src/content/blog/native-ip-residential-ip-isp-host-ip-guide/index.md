@@ -12,7 +12,7 @@ draft: false
 
 
 
-<figure class="gb-block-image gb-block-image-85e90c72"><img decoding="async" width="1024" height="768" class="gb-image gb-image-85e90c72 lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/02/ip.jpg" alt="" title="ip" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/02/ip.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/02/ip-300x225.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/02/ip-768x576.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/02/ip-600x450.jpg 600w" data-sizes="(max-width: 1024px) 100vw, 1024px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1024px; --smush-placeholder-aspect-ratio: 1024/768;"></figure>
+<figure class="gb-block-image gb-block-image-85e90c72"><img src="./imgs/img23.jpg" alt="" width="1024" height="768" loading="lazy"></figure>
 
 
 

@@ -8,7 +8,7 @@ draft: false
 ---
 
 <p><strong>核验说明（2026年9月）：第三方数据库、贸易数据和搜索结果可能不完整、滞后或受许可限制，不能单独证明资信或制裁合规。应记录查询日期和来源，对注册信息、受益人、制裁/限制方与付款账户做交叉核验，并遵守适用的数据保护和数据库使用条款。</strong> <a href="https://pacer.uscourts.gov/" target="_blank" rel="nofollow noopener">PACER</a> · <a href="https://www.eurojust.europa.eu/" target="_blank" rel="nofollow noopener">Eurojust</a></p>
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="691" data-src="https://virtualcardx.com/wp-content/uploads/2025/06/a-1024x691.png" alt="" class="wp-image-1085 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/06/a-1024x691.png 1024w, https://virtualcardx.com/wp-content/uploads/2025/06/a-300x202.png 300w, https://virtualcardx.com/wp-content/uploads/2025/06/a-768x518.png 768w, https://virtualcardx.com/wp-content/uploads/2025/06/a-18x12.png 18w, https://virtualcardx.com/wp-content/uploads/2025/06/a.png 1536w" data-sizes="(max-width: 1024px) 100vw, 1024px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1024px; --smush-placeholder-aspect-ratio: 1024/691;" /></figure>
+<figure class="wp-block-image size-large"><img src="./imgs/img7.png" alt="" width="1024" height="691" loading="lazy"></figure>
 
 
 

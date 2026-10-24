@@ -19,7 +19,7 @@ draft: false
 <pre class="wp-block-code"><code>define('WP_CACHE', true);
 define('WPCACHEHOME','/var/www/html/wordpress/wp-content/plugins/wp-super-cache/');</code></pre>
 <p class="wp-block-paragraph">保存后重新访问后台。 </p>
-<figure class="gb-block-image gb-block-image-39206b9e"><img decoding="async" width="900" height="675" class="gb-image gb-image-39206b9e lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/02/wp-super-cache.jpg" alt="" title="wp-super-cache" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/02/wp-super-cache.jpg 900w, https://virtualcardx.com/wp-content/uploads/2025/02/wp-super-cache-300x225.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/02/wp-super-cache-768x576.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/02/wp-super-cache-600x450.jpg 600w" data-sizes="(max-width: 900px) 100vw, 900px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 900px; --smush-placeholder-aspect-ratio: 900/675;"></figure>
+<figure class="gb-block-image gb-block-image-39206b9e"><img src="./imgs/img37.jpg" alt="" width="900" height="675" loading="lazy"></figure>
 <hr />
 <section id="vcx-seo-expansion-20260704">
 <h2>WordPress安装WP Super Cache插件后出现“无法更新 wp-config.php“问题的解决方法：实操前的检查清单</h2>

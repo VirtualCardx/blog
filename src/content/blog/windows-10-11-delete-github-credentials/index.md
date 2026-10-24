@@ -11,7 +11,7 @@ draft: false
 <p class="wp-block-paragraph">fatal: unable to access &#8216;https://github.com/xxx/xxx.git/&#8217;: The requested URL returned error: 403</p>
 <p class="wp-block-paragraph">网上搜索了下，全部讲的是如何在mac或者linux删除凭据的方法，在windows根本不适用，查了很多资料，终于找到了以下的方法：</p>
 <p class="wp-block-paragraph">按下 Win + R，输入 control keymgr.dll 并回车，打开凭据管理器；</p>
-<figure class="wp-block-image size-full"><img decoding="async" width="1011" height="651" data-src="https://virtualcardx.com/wp-content/uploads/2026/02/github2.jpg" alt="" class="wp-image-1520 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2026/02/github2.jpg 1011w, https://virtualcardx.com/wp-content/uploads/2026/02/github2-300x193.jpg 300w, https://virtualcardx.com/wp-content/uploads/2026/02/github2-768x495.jpg 768w, https://virtualcardx.com/wp-content/uploads/2026/02/github2-18x12.jpg 18w" data-sizes="(max-width: 1011px) 100vw, 1011px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1011px; --smush-placeholder-aspect-ratio: 1011/651;" srcset="https://virtualcardx.com/wp-content/uploads/2026/02/github2.jpg 1011w, https://virtualcardx.com/wp-content/uploads/2026/02/github2-300x193.jpg 300w, https://virtualcardx.com/wp-content/uploads/2026/02/github2-768x495.jpg 768w, https://virtualcardx.com/wp-content/uploads/2026/02/github2-18x12.jpg 18w" sizes="(max-width: 1011px) 100vw, 1011px"></figure>
+<figure class="wp-block-image size-full"><img src="./imgs/img36.jpg" alt="" width="1011" height="651" loading="lazy"></figure>
 <p class="wp-block-paragraph">在「Windows 凭据」标签下，找到所有包含 github.com 的条目（通常是「普通凭据」类型）；</p>
 <p class="wp-block-paragraph">选中这些条目，点击「删除」，清空旧的缓存凭据。</p>
 <hr />

@@ -7,7 +7,7 @@ tags: ["技术杂谈"]
 draft: false
 ---
 
-<figure class="wp-block-image size-full"><img decoding="async" width="750" height="473" data-src="https://virtualcardx.com/wp-content/uploads/2025/12/github.jpg" alt="" class="wp-image-1226 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/12/github.jpg 750w, https://virtualcardx.com/wp-content/uploads/2025/12/github-300x189.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/12/github-18x12.jpg 18w" data-sizes="(max-width: 750px) 100vw, 750px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 750px; --smush-placeholder-aspect-ratio: 750/473;" srcset="https://virtualcardx.com/wp-content/uploads/2025/12/github.jpg 750w, https://virtualcardx.com/wp-content/uploads/2025/12/github-300x189.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/12/github-18x12.jpg 18w" sizes="(max-width: 750px) 100vw, 750px" /></figure>
+<figure class="wp-block-image size-full"><img src="./imgs/img12.jpg" alt="" width="750" height="473" loading="lazy"></figure>
 <p class="wp-block-paragraph">
 <h2 class="wp-block-heading" id="github-">1. 初始操作</h2>
 <pre class="wp-block-code"><code>echo "# supereditor" &gt;&gt; README.md

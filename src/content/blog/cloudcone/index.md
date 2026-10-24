@@ -12,7 +12,7 @@ draft: false
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="717" data-src="https://virtualcardx.com/wp-content/uploads/2025/05/cloudcone-1-1024x717.jpg" alt="" class="wp-image-852 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/05/cloudcone-1-1024x717.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/05/cloudcone-1-300x210.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/05/cloudcone-1-768x538.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/05/cloudcone-1-1536x1075.jpg 1536w, https://virtualcardx.com/wp-content/uploads/2025/05/cloudcone-1-18x12.jpg 18w, https://virtualcardx.com/wp-content/uploads/2025/05/cloudcone-1.jpg 1894w" data-sizes="(max-width: 1024px) 100vw, 1024px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1024px; --smush-placeholder-aspect-ratio: 1024/717;" /></figure>
+<figure class="wp-block-image size-large"><img src="./imgs/img6.jpg" alt="" width="1024" height="717" loading="lazy"></figure>
 
 
 

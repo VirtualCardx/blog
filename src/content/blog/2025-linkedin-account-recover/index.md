@@ -24,7 +24,7 @@ draft: false
 
 
 
-<figure class="gb-block-image gb-block-image-32805148"><img decoding="async" width="2028" height="900" class="gb-image gb-image-32805148 lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/03/linkedin2.jpg" alt="" title="linkedin2" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/03/linkedin2.jpg 2028w, https://virtualcardx.com/wp-content/uploads/2025/03/linkedin2-300x133.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/03/linkedin2-1024x454.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/03/linkedin2-768x341.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/03/linkedin2-1536x682.jpg 1536w, https://virtualcardx.com/wp-content/uploads/2025/03/linkedin2-18x8.jpg 18w" data-sizes="(max-width: 2028px) 100vw, 2028px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 2028px; --smush-placeholder-aspect-ratio: 2028/900;"></figure>
+<figure class="gb-block-image gb-block-image-32805148"><img src="./imgs/img1.jpg" alt="" width="2028" height="900" loading="lazy"></figure>
 
 
 
@@ -120,7 +120,7 @@ draft: false
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="996" data-src="https://virtualcardx.com/wp-content/uploads/2025/03/image-1024x996.png" alt="" class="wp-image-777 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/03/image-1024x996.png 1024w, https://virtualcardx.com/wp-content/uploads/2025/03/image-300x292.png 300w, https://virtualcardx.com/wp-content/uploads/2025/03/image-768x747.png 768w, https://virtualcardx.com/wp-content/uploads/2025/03/image-12x12.png 12w, https://virtualcardx.com/wp-content/uploads/2025/03/image.png 1420w" data-sizes="(max-width: 1024px) 100vw, 1024px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1024px; --smush-placeholder-aspect-ratio: 1024/996;" /></figure>
+<figure class="wp-block-image size-large"><img src="./imgs/img2.png" alt="" width="1024" height="996" loading="lazy"></figure>
 
 
 
@@ -132,7 +132,7 @@ draft: false
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="510" data-src="https://virtualcardx.com/wp-content/uploads/2025/03/image-1-e1748498011171-1024x510.png" alt="" class="wp-image-778 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/03/image-1-e1748498011171-1024x510.png 1024w, https://virtualcardx.com/wp-content/uploads/2025/03/image-1-e1748498011171-300x149.png 300w, https://virtualcardx.com/wp-content/uploads/2025/03/image-1-e1748498011171-768x382.png 768w, https://virtualcardx.com/wp-content/uploads/2025/03/image-1-e1748498011171-18x9.png 18w, https://virtualcardx.com/wp-content/uploads/2025/03/image-1-e1748498011171.png 1318w" data-sizes="(max-width: 1024px) 100vw, 1024px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1024px; --smush-placeholder-aspect-ratio: 1024/510;" /></figure>
+<figure class="wp-block-image size-large"><img src="./imgs/img3.png" alt="" width="1024" height="510" loading="lazy"></figure>
 
 
 
@@ -140,7 +140,7 @@ draft: false
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" data-src="https://virtualcardx.com/wp-content/uploads/2025/03/image-2-e1748498096749-1024x768.png" alt="" class="wp-image-779 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/03/image-2-e1748498096749-1024x768.png 1024w, https://virtualcardx.com/wp-content/uploads/2025/03/image-2-e1748498096749-300x225.png 300w, https://virtualcardx.com/wp-content/uploads/2025/03/image-2-e1748498096749-768x576.png 768w, https://virtualcardx.com/wp-content/uploads/2025/03/image-2-e1748498096749-16x12.png 16w, https://virtualcardx.com/wp-content/uploads/2025/03/image-2-e1748498096749.png 1062w" data-sizes="(max-width: 1024px) 100vw, 1024px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1024px; --smush-placeholder-aspect-ratio: 1024/768;" /></figure>
+<figure class="wp-block-image size-large"><img src="./imgs/img4.png" alt="" width="1024" height="768" loading="lazy"></figure>
 
 
 
@@ -152,7 +152,7 @@ draft: false
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="1024" height="492" data-src="https://virtualcardx.com/wp-content/uploads/2025/03/image-3-1024x658-1.png" alt="" class="wp-image-1066 lazyload" title="" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/03/image-3-1024x658-1.png 1024w, https://virtualcardx.com/wp-content/uploads/2025/03/image-3-1024x658-1-300x144.png 300w, https://virtualcardx.com/wp-content/uploads/2025/03/image-3-1024x658-1-768x369.png 768w, https://virtualcardx.com/wp-content/uploads/2025/03/image-3-1024x658-1-18x9.png 18w" data-sizes="(max-width: 1024px) 100vw, 1024px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1024px; --smush-placeholder-aspect-ratio: 1024/492;" /></figure>
+<figure class="wp-block-image size-full"><img src="./imgs/img5.png" alt="" width="1024" height="492" loading="lazy"></figure>
 
 
 

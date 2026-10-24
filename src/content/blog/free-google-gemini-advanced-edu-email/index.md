@@ -12,7 +12,7 @@ draft: false
 
 
 
-<figure class="gb-block-image gb-block-image-c57e915c"><img decoding="async" width="1200" height="630" class="gb-image gb-image-c57e915c lazyload" data-src="https://virtualcardx.com/wp-content/uploads/2025/05/gemini.jpg" alt="" title="gemini" data-srcset="https://virtualcardx.com/wp-content/uploads/2025/05/gemini.jpg 1200w, https://virtualcardx.com/wp-content/uploads/2025/05/gemini-300x158.jpg 300w, https://virtualcardx.com/wp-content/uploads/2025/05/gemini-1024x538.jpg 1024w, https://virtualcardx.com/wp-content/uploads/2025/05/gemini-768x403.jpg 768w, https://virtualcardx.com/wp-content/uploads/2025/05/gemini-18x9.jpg 18w" data-sizes="(max-width: 1200px) 100vw, 1200px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1200px; --smush-placeholder-aspect-ratio: 1200/630;"></figure>
+<figure class="gb-block-image gb-block-image-c57e915c"><img src="./imgs/img8.jpg" alt="" width="1200" height="630" loading="lazy"></figure>
 
 
 
