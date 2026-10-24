@@ -364,6 +364,17 @@ main.container {
   hanging-punctuation: first allow-end;
   font-feature-settings: 'kern', 'liga', 'onum';
 }
+/* 仅含斜体的段落视为截图图注 */
+.post-body p > em:only-child {
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-size: 0.82rem;
+  font-family: var(--font-sans);
+  letter-spacing: 0.02em;
+  color: var(--text-faint);
+  margin: -0.7em 0 1.6em;
+}
 .post-body :is(h2, h3, h4) {
   scroll-margin-top: 1.5rem;
 }
