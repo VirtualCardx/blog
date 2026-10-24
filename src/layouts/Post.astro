@@ -1,6 +1,7 @@
 ---
 import Base from './Base.astro';
 import Comments from '../components/Comments.astro';
+import { tagSlug } from '../utils/tags';
 import type { CollectionEntry } from 'astro:content';
 import type { MarkdownHeading } from 'astro';
 
@@ -33,7 +34,7 @@ const readingMinutes = Math.max(1, Math.round(cjkChars / 400 + latinWords / 200)
         {updatedDate && <span>更新于 {formatDate(updatedDate)}</span>}
         <span>约 {readingMinutes} 分钟</span>
         {tags.map((tag) => (
-          <a class="tag" href={`/tags/${encodeURIComponent(tag)}/`}>{tag}</a>
+          <a class="tag" href={`/tags/${tagSlug(tag)}/`}>{tag}</a>
         ))}
       </div>
     </header>

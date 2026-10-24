@@ -1,16 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import { tagSlug } from '../../utils/tags';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
   const tags = new Set(posts.flatMap((post) => post.data.tags));
-  // 传原始标签，让 Astro 生成正确编码的路径；提前编码会导致磁盘目录名为字面 %XX 而路由查不到
-  return [...tags].map((tag) => ({ params: { tag } }));
+  return [...tags].map((tag) => ({ params: { tag: tagSlug(tag) }, props: { tag } }));
 }
 
-const { tag } = Astro.params;
-const tagName = tag!;
+const { tag: tagName } = Astro.props;
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft && data.tags.includes(tagName)))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
