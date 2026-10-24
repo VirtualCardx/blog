@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const tags = new Set(posts.flatMap((post) => post.data.tags));
+  // 传原始标签，让 Astro 生成正确编码的路径；提前编码会导致磁盘目录名为字面 %XX 而路由查不到
+  return [...tags].map((tag) => ({ params: { tag } }));
+}
+
+const { tag } = Astro.params;
+const tagName = tag!;
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft && data.tags.includes(tagName)))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
+---
+
+<Base title={`标签：${tagName}`} description={`标签「${tagName}」下的全部文章`}>
+  <h1 class="page-title"># {tagName}</h1>
+  <p class="intro">{posts.length} 篇文章 · <a href="/tags/">全部标签</a></p>
+  <ul class="post-list">
+    {
+      posts.map((post) => (
+        <li>
+          <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
+          <a href={`/blog/${post.id}/`} transition:name={`post-title-${post.id}`}>{post.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

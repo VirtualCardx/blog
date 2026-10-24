@@ -9,7 +9,13 @@ export async function GET() {
     description: post.data.description,
     tags: post.data.tags,
     pubDate: post.data.pubDate.toISOString(),
-    content: (post.body ?? '').replace(/[#*`>\-\[\]()!]|```[\s\S]*?```/g, ' ').replace(/\s+/g, ' ').trim(),
+    content: (post.body ?? '')
+      .replace(/```[\s\S]*?```/g, ' ')
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+      .replace(/[#*`>~_[\]()!|-]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim(),
   }));
 
   return new Response(JSON.stringify(items), {

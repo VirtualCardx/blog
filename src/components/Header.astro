@@ -5,6 +5,7 @@ const pathname = Astro.url.pathname;
 const navItems = [
   { href: '/', label: '首页' },
   { href: '/blog/', label: '归档' },
+  { href: '/tags/', label: '标签' },
   { href: '/search/', label: '搜索' },
   { href: '/about/', label: '关于' },
 ];
@@ -27,3 +28,38 @@ const navItems = [
     </nav>
   </div>
 </header>
+
+<script>
+  // 全站搜索快捷键：/ 或 Ctrl/Cmd+K
+  import { navigate } from 'astro:transitions/client';
+
+  function focusSearch() {
+    document.getElementById('search-input')?.focus();
+  }
+
+  function openSearch() {
+    if (location.pathname === '/search/') {
+      focusSearch();
+    } else {
+      navigate('/search/');
+    }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    const target = e.target as HTMLElement;
+    const typing = target.closest?.('input, textarea, select, [contenteditable]');
+    if (e.key === '/' && !typing) {
+      e.preventDefault();
+      openSearch();
+    } else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      openSearch();
+    }
+  });
+
+  // ClientRouter 客户端导航后 autofocus 属性不会重新触发，这里补上聚焦
+  document.addEventListener('astro:page-load', () => {
+    const input = document.getElementById('search-input') as HTMLInputElement | null;
+    if (input && window.matchMedia('(min-width: 561px)').matches) input.focus();
+  });
+</script>

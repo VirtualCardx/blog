@@ -1,20 +1,20 @@
 /* —— 主题变量 —— */
 :root {
   --font-serif:
-    'Source Serif 4', 'LXGW WenKai', 'Noto Serif SC', 'Source Han Serif SC',
+    'Source Serif 4 Variable', 'LXGW WenKai', 'Noto Serif SC', 'Source Han Serif SC',
     'Songti SC', 'SimSun', Georgia, 'Times New Roman', serif;
   --font-sans:
     -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei',
     sans-serif;
   --font-mono:
-    'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo,
+    'JetBrains Mono Variable', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo,
     monospace;
 
   --bg: #faf9f6;
   --bg-raised: #f2f0ea;
   --text: #3a3833;
   --text-soft: #6f6c64;
-  --text-faint: #9a968c;
+  --text-faint: #847e72;
   --accent: #7a6f5d;
   --link: #5f6e58;
   --border: #e4e1d8;
@@ -31,7 +31,7 @@
     --bg-raised: #242320;
     --text: #d5d1c7;
     --text-soft: #a09c91;
-    --text-faint: #6f6c64;
+    --text-faint: #837e74;
     --accent: #a89a7f;
     --link: #93a488;
     --border: #33312c;
@@ -315,9 +315,14 @@ main.container {
 .post-list a {
   color: var(--text);
   border: none;
+  flex: 1;
+  min-width: 0;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow-wrap: anywhere;
 }
 .post-list a:hover { color: var(--accent); }
 
@@ -349,8 +354,10 @@ main.container {
 }
 .tag {
   color: var(--text-faint);
+  border: none;
 }
 .tag::before { content: '#'; }
+.tag:hover { color: var(--accent); border: none; }
 
 .post-body {
   text-align: justify;
@@ -373,7 +380,7 @@ main.container {
 .post-nav a { border: none; color: var(--text-soft); }
 .post-nav a:hover { color: var(--text); }
 
-/* —— 文章大纲 —— */
+/* —— 文章大纲（移动端折叠为 details，宽屏浮到右侧）—— */
 .toc {
   margin: 0 0 2.4rem;
   padding: 1rem 1.2rem;
@@ -384,6 +391,22 @@ main.container {
   line-height: 1.9;
   letter-spacing: 0.01em;
 }
+.toc summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+.toc summary::-webkit-details-marker { display: none; }
+.toc summary::after {
+  content: '▾';
+  font-size: 0.75em;
+  color: var(--text-faint);
+  transition: transform 0.2s ease;
+}
+.toc[open] summary::after { transform: rotate(180deg); }
 .toc-title {
   margin: 0 0 0.4rem;
   font-family: var(--font-sans);
@@ -433,6 +456,8 @@ main.container {
     padding: 0 1rem 0 0;
     border-right: 1px solid var(--border);
   }
+  .toc summary { cursor: default; }
+  .toc summary::after { display: none; }
 }
 
 /* —— 评论 —— */
@@ -445,8 +470,54 @@ main.container {
   margin-bottom: 1.2rem;
 }
 
+/* —— 图片灯箱 —— */
+.post-body img { cursor: zoom-in; }
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vmin;
+  background: rgba(0, 0, 0, 0.78);
+  cursor: zoom-out;
+}
+.lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);
+}
+
+/* —— 标签页 —— */
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 0.7rem;
+}
+.tag-cloud a {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  color: var(--text-soft);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.15em 0.85em;
+}
+.tag-cloud a:hover { color: var(--text); border-color: var(--accent); }
+.tag-cloud .count {
+  font-size: 0.78em;
+  color: var(--text-faint);
+  margin-left: 0.3em;
+}
+
 /* —— 搜索 —— */
 .search-box {
+  position: relative;
   margin: 0 0 2.4rem;
 }
 .search-box input {
@@ -457,13 +528,26 @@ main.container {
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--border);
-  padding: 0.5em 0.1em;
+  padding: 0.5em 3em 0.5em 0.1em;
   outline: none;
   letter-spacing: 0.02em;
   transition: border-color 0.2s ease;
 }
 .search-box input:focus { border-bottom-color: var(--accent); }
 .search-box input::placeholder { color: var(--text-faint); }
+.search-kbd {
+  position: absolute;
+  right: 0;
+  top: 0.65em;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1em 0.55em;
+  pointer-events: none;
+}
 
 .search-empty {
   color: var(--text-faint);
@@ -489,10 +573,5 @@ main.container {
   html { font-size: 16px; }
   .site-header { padding: 1.8rem 0 1.4rem; }
   .post-list li { flex-direction: column; gap: 0.1rem; }
-  .post-list a {
-    white-space: normal;
-    overflow: visible;
-    text-overflow: clip;
-    overflow-wrap: anywhere;
-  }
+  .search-kbd { display: none; }
 }

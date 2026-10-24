@@ -16,23 +16,34 @@ const { title, description, pubDate, updatedDate, tags } = post.data;
 
 const formatDate = (d: Date) =>
   d.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// 中文按 400 字/分钟、拉丁词按 200 词/分钟估算
+const body = post.body ?? '';
+const cjkChars = (body.match(/[\u4e00-\u9fff]/g) ?? []).length;
+const latinWords = (body.match(/[a-zA-Z0-9]+/g) ?? []).length;
+const readingMinutes = Math.max(1, Math.round(cjkChars / 400 + latinWords / 200));
 ---
 
-<Base title={title} description={description}>
+<Base title={title} description={description} ogType="article" publishedTime={pubDate.toISOString()}>
   <article>
     <header class="post-header">
       <h1 transition:name={`post-title-${post.id}`}>{title}</h1>
       <div class="post-meta">
         <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
         {updatedDate && <span>更新于 {formatDate(updatedDate)}</span>}
-        {tags.map((tag) => <span class="tag">{tag}</span>)}
+        <span>约 {readingMinutes} 分钟</span>
+        {tags.map((tag) => (
+          <a class="tag" href={`/tags/${encodeURIComponent(tag)}/`}>{tag}</a>
+        ))}
       </div>
     </header>
 
     {
       toc.length > 0 && (
-        <nav class="toc" aria-label="文章大纲">
-          <h2 class="toc-title">大纲</h2>
+        <details class="toc" aria-label="文章大纲">
+          <summary>
+            <span class="toc-title">大纲</span>
+          </summary>
           <ol>
             {toc.map((h) => (
               <li class={`toc-depth-${h.depth}`}>
@@ -40,7 +51,7 @@ const formatDate = (d: Date) =>
               </li>
             ))}
           </ol>
-        </nav>
+        </details>
       )
     }
 
@@ -59,12 +70,28 @@ const formatDate = (d: Date) =>
 
 <script>
   let tocObserver: IntersectionObserver | undefined;
+  let tocMq: MediaQueryList | undefined;
+  let tocMqBound = false;
 
   function initToc() {
     tocObserver?.disconnect();
 
-    const toc = document.querySelector('.toc');
+    const toc = document.querySelector<HTMLDetailsElement>('.toc');
     const tocLinks = document.querySelectorAll<HTMLAnchorElement>('.toc a');
+
+    // 宽屏侧栏始终展开，窄屏折叠由读者自行开关
+    if (toc) {
+      tocMq ??= window.matchMedia('(min-width: 74rem)');
+      if (!tocMqBound) {
+        tocMqBound = true;
+        tocMq.addEventListener('change', (e) => {
+          const el = document.querySelector<HTMLDetailsElement>('.toc');
+          if (el) el.open = e.matches;
+        });
+      }
+      toc.open = tocMq.matches;
+    }
+
     if (tocLinks.length === 0) return;
 
     if (toc && !toc.dataset.clickBound) {
@@ -106,4 +133,39 @@ const formatDate = (d: Date) =>
 
   initToc();
   document.addEventListener('astro:page-load', initToc);
+</script>
+
+<script>
+  // —— 图片灯箱：点击正文图片放大查看，点击遮罩 / Esc 关闭 ——
+  let overlay: HTMLDivElement | null = null;
+
+  function closeLightbox() {
+    overlay?.remove();
+    overlay = null;
+    document.documentElement.style.overflow = '';
+  }
+
+  document.addEventListener('click', (e) => {
+    const img = (e.target as Element).closest?.('.post-body img');
+    if (!img) {
+      if (overlay && e.target === overlay) closeLightbox();
+      return;
+    }
+    e.preventDefault();
+    overlay?.remove();
+    overlay = document.createElement('div');
+    overlay.className = 'lightbox';
+    const clone = document.createElement('img');
+    clone.src = (img as HTMLImageElement).src;
+    clone.alt = (img as HTMLImageElement).alt;
+    overlay.appendChild(clone);
+    document.body.appendChild(overlay);
+    document.documentElement.style.overflow = 'hidden';
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+
+  document.addEventListener('astro:after-swap', closeLightbox);
 </script>
