@@ -3,7 +3,7 @@ title: "Windows 10 & 11平台下，如何删除github凭据"
 description: "Windows 10 &amp; 11平台下，如何删除github凭据完整指南，从环境配置到提交推送全覆盖，适合开发新手快速掌握Git工作流。"
 pubDate: 2026-02-20
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["技术杂谈"]
 draft: false
 ---
 

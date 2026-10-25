@@ -3,7 +3,7 @@ title: "网站迁移不丢流量：301与Sitemap实操指南"
 description: "网站迁移后流量归零？以WordPress迁Cloudflare Workers实战为例，讲清301/302选型、URL映射表制作、canonical与sitemap三件套、Bing IndexNow提交与三周观察期。"
 pubDate: 2026-08-31
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["SEO"]
 draft: false
 ---
 

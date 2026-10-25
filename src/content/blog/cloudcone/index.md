@@ -229,3 +229,10 @@ draft: false
 
 <li>有用户反映每年会有一两天断网几个小时，这一问题笔者没有遇到</li>
 </ol>
+<h2>2026 年 10 月行情更新</h2>
+<ul>
+<li><strong>Hashtag 2026 Sale</strong>（年初上线）：洛杉矶机房 Storage VPS 低至 <strong>$10.24/年</strong>，SC2 云服务器 $31.25 起</li>
+<li><strong>周年活动 #CCTURNS8</strong>：$13.20/年 起；2026 万圣节活动为 lifetime recurring SSD 套餐加送内存（洛杉矶）</li>
+<li><strong>$12.12/年 款</strong>（DC4）常年秒空，看到有货不要犹豫</li>
+<li><strong>优惠聚合</strong>：官方促销动态看 <a href="https://news.cloudcone.com" rel="noopener" target="_blank">news.cloudcone.com</a>，比第三方博客转载更准</li>
+</ul>

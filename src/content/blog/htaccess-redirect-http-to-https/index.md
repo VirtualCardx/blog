@@ -3,7 +3,7 @@ title: "使用.htaccess文件设置强制重定向http协议到https协议"
 description: "详细教程：如何使用.htaccess文件设置强制重定向HTTP到HTTPS协议。只需简单添加几行代码，即可提升网站安全与SEO排名，新手小白也能看懂。"
 pubDate: 2025-12-08
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["技术杂谈"]
 draft: false
 ---
 

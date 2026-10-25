@@ -237,3 +237,10 @@ draft: false
 
 
 <p class="wp-block-paragraph">RackNerd以其超低价格和灵活的配置，成为预算有限用户的理想选择。无论是个人博客、小型企业还是开发测试环境，都能找到匹配的套餐。建议优先选择促销款，并关注黑五、双十一等大型活动，以获取更高性价比。</p>
+<h2>2026 年 10 月行情更新</h2>
+<ul>
+<li><strong>购买入口</strong>：RackNerd 的 VPS 优惠基本不靠优惠码，而是官方特价页 <a href="https://www.racknerd.com/specials" rel="noopener" target="_blank">racknerd.com/specials</a> 直接挂特价套餐；通用码仅剩独立服务器（15OFFDEDI）和混合独服（HYBRID10OFF），RN-2022（75 折）只对部分常规款有效</li>
+<li><strong>当前参考价</strong>（2026-09 社区汇总）：1核/1.25G/20G/2T 月流量约 <strong>$12.88/年</strong>，2核/2G/30G/4T 约 <strong>$19.88/年</strong>；2026 新年促销 KVM 年付低至 $11.29 起</li>
+<li><strong>最佳买入时机</strong>：黑五和新年的年度大促，1G 内存档通常压到 $10~13/年，不急可以等</li>
+<li><strong>优惠聚合</strong>：p3terx.com 的 RackNerd 汇总页长期更新，比第三方转载更及时</li>
+</ul>

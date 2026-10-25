@@ -3,7 +3,7 @@ title: "解决VirtualBox因大小核引起的性能下降问题"
 description: "解决VirtualBox因大小核引起的性能下降问题解决方案，针对CPU大小核架构导致的性能问题，提供核心调度优化与BIOS设置调整方法。"
 pubDate: 2026-07-04
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["技术杂谈"]
 draft: false
 ---
 

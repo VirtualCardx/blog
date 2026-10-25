@@ -3,7 +3,7 @@ title: "Bing Webmaster Tools 使用指南：验证、收录诊断与 IndexNow �
 description: "Bing Webmaster Tools 全流程实操：站点验证、sitemap 提交、URL 检查、IndexNow 接入与抓取控制，附配额、风险与常见问题解答。"
 pubDate: 2026-10-15
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["SEO"]
 draft: false
 ---
 

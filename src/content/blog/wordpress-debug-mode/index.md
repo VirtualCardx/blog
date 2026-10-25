@@ -3,7 +3,7 @@ title: "如何为WordPress网站开启调试模式排查错误"
 description: "如何为WordPress网站开启调试模式排查错误详细教程，涵盖WordPress安装、调试、优化与常见问题排查，提供实用代码示例与操作步骤。"
 pubDate: 2026-07-04
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["WordPress"]
 draft: false
 ---
 

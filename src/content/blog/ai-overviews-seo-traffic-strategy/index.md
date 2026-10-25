@@ -3,7 +3,7 @@ title: "AI Overviews 吃掉搜索流量：2026 SEO 对策"
 description: "Ahrefs用30万关键词实测发现，AI Overview让排名第一的页面点击量下降58%。信息类网站流量跌至高峰期的28%。本文分析哪些内容类型受冲击最大，品牌信号如何成为新排名因素，以及具体调整策略。"
 pubDate: 2026-07-10
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["SEO"]
 draft: false
 ---
 

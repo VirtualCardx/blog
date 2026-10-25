@@ -3,7 +3,7 @@ title: "Tailscale 异地组网到底值不值得折腾：实测体验与避坑�
 description: "Tailscale 异地组网到底值不值得折腾？实测家庭/办公室/云服务器三地互联：延迟、吞吐、稳定性与费用全记录，附避坑指南与适用场景建议。"
 pubDate: 2026-07-04
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["技术杂谈"]
 draft: false
 ---
 

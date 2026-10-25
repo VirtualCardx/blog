@@ -3,7 +3,7 @@ title: "Cloudflare 15年免费SSL证书完整申请指南"
 description: "近期不少用户苦于免费 SSL 证书有效期短、需要频繁更新。本文介绍 Cloudflare 15 年期免费 SSL 证书的申请流程及通配符域名支持。"
 pubDate: 2026-07-03
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["技术杂谈"]
 draft: false
 ---
 

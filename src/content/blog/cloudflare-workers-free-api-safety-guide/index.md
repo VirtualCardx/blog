@@ -3,7 +3,7 @@ title: "Cloudflare Workers 免费版做 API：额度与安全做法"
 description: "用 Cloudflare Workers 免费版部署小型 API 时，100,000 次日请求和 10ms CPU 意味着什么？本文用卡 BIN 查询这类只读工具说明部署边界、密钥管理、限流和上线检查。"
 pubDate: 2026-08-18
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["技术杂谈"]
 draft: false
 ---
 

@@ -3,7 +3,7 @@ title: "WordPress 性能优化：Core Web Vitals 指南"
 description: "从 Core Web Vitals 三个指标（LCP、INP、CLS）入手，详解 WordPress 性能优化的具体操作方法，涵盖首屏图片与 WebP 格式优化、页面缓存策略、JavaScript 阻塞排查、插件审计、数据库清理与 TTFB 降低等实战技巧。"
 pubDate: 2026-07-16
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["WordPress"]
 draft: false
 ---
 

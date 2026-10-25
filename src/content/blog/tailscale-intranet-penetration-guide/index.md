@@ -3,7 +3,7 @@ title: "Tailscale 内网穿透：为什么我用过大半年后，还是觉得�
 description: "Tailscale 内网穿透实测：为什么用了大半年还是觉得它最省心？对比 frp/ZeroTier/花生壳的组网体验，讲清安装、Tailnet 配置、异地访问与避坑要点。"
 pubDate: 2026-07-04
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["技术杂谈"]
 draft: false
 ---
 

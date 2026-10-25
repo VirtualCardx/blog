@@ -3,7 +3,7 @@ title: "Hermes Agent 备份教程：Rclone+R2+Cron"
 description: "用 Rclone 把 ~/.hermes 目录加密打包、上传到 Cloudflare R2 对象存储，再用 Linux 系统 Cron 每日自动执行，实现 Hermes Agent 配置、会话与记忆的异地加密备份。包含安全脚本写法、保留策略与新 VPS 完整恢复流程。"
 pubDate: 2026-07-24
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["技术杂谈"]
 draft: false
 ---
 

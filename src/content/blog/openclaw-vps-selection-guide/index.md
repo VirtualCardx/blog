@@ -3,7 +3,7 @@ title: "使用云服务器搭建OpenClaw如何选购VPS"
 description: "文章按轻量网关、日常多代理与重度自动化三类 OpenClaw 场景，比较 VPS 的 CPU、内存、存储、带宽、线路和商家，建议日常浏览器自动化以四核四吉内存为基准。"
 pubDate: 2026-07-03
 updatedDate: 2026-10-24
-tags: [""]
+tags: ["VPS"]
 draft: false
 ---
 

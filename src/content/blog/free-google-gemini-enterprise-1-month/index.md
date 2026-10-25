@@ -1,6 +1,6 @@
 ---
 title: "免费领取一个月Google Gemini企业版"
-description: "免费领取一个月Google Gemini企业版详细操作指南，提供账号申诉、解封流程与防封技巧，帮助用户快速恢复账户访问权限。"
+description: "免费领取一个月 Google Gemini 企业版（30 天试用）的实测流程与注意事项，含 2026-09 复核修订。"
 pubDate: 2025-12-02
 updatedDate: 2026-10-24
 tags: ["技术杂谈"]
