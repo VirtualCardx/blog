@@ -79,7 +79,7 @@ draft: false
 
 <h2>风险与限制：别把 301 当万能药</h2>
 <ul>
-<li><strong>301 不传递处罚</strong>是一把双刃剑：如果旧站被算法降权，跳转到新 URL 救不了内容质量本身。迁移前先确认旧站没有手动操作处罚，判断方法可以参考<a href="https://virtualcardx.com/2025/02/04/how-to-check-if-domain-penalized-by-google/" title="如何判断域名是否被Google惩罚">我们之前的域名惩罚排查文章</a>。</li>
+<li><strong>301 不传递处罚</strong>是一把双刃剑：如果旧站被算法降权，跳转到新 URL 救不了内容质量本身。迁移前先确认旧站没有手动操作处罚，判断方法可以参考<a href="/blog/how-to-check-if-domain-penalized-by-google/" title="如何判断域名是否被Google惩罚">我们之前的域名惩罚排查文章</a>。</li>
 <li><strong>缓存会放大事故</strong>：CDN 和浏览器都会缓存 301（浏览器甚至重启都不一定丢）。规则配错的窗口越短越好，发现错误立刻改，并主动 purge 边缘缓存。</li>
 <li><strong>多语言站别偷懒</strong>：只给中文版做 301、英文版 404，等于砍掉一半流量。每个语言版本的映射都要单独进表。</li>
 <li><strong>别在迁移同时大改内容</strong>：官方建议一次只变一个东西。又换 URL 又重写标题正文，出了问题你分不清是哪个变量导致的。</li>
@@ -100,7 +100,7 @@ draft: false
 <p>不要。sitemap 只放最终返回 200 的 canonical URL。旧 URL 的使命已经交给 301 完成，放进 sitemap 只会浪费抓取预算。</p>
 
 <h2>写在最后</h2>
-<p>迁移这件事，技术上不难，难在纪律：映射表要全、验证要逐条跑、观察期要有耐心。我们这次 WordPress→Workers 的迁移之所以能恢复，靠的就是 78 条映射全部验证通过、sitemap 清理到只含 canonical URL、外加 IndexNow 双端点提交。如果你的站也在计划迁移，按这篇文章的顺序走一遍，能把风险压到最低。动手前不妨也看看我们之前整理的<a href="https://virtualcardx.com/2025/02/10/nginx-wordpress-rank-math-sitemap-config/" title="Nginx 下 Rank Math Sitemap 设置"> nginx 环境下 sitemap 配置</a>和<a href="https://virtualcardx.com/cloudflare-workers-free-api-safety-guide/" title="Cloudflare Workers 免费版做 API"> Cloudflare Workers 免费额度实践</a>，两篇正好覆盖迁移前后两端的技术细节。</p>
+<p>迁移这件事，技术上不难，难在纪律：映射表要全、验证要逐条跑、观察期要有耐心。我们这次 WordPress→Workers 的迁移之所以能恢复，靠的就是 78 条映射全部验证通过、sitemap 清理到只含 canonical URL、外加 IndexNow 双端点提交。如果你的站也在计划迁移，按这篇文章的顺序走一遍，能把风险压到最低。动手前不妨也看看我们之前整理的<a href="/blog/nginx-wordpress-rank-math-sitemap-config/" title="Nginx 下 Rank Math Sitemap 设置"> nginx 环境下 sitemap 配置</a>和<a href="/blog/cloudflare-workers-free-api-safety-guide/" title="Cloudflare Workers 免费版做 API"> Cloudflare Workers 免费额度实践</a>，两篇正好覆盖迁移前后两端的技术细节。</p>
 
 <hr>
 <h2>2026 迁移核验清单</h2><p>上线前先导出旧站可索引 URL、目标 URL、状态码和规范化 URL，并建立<strong>一对一</strong>的永久重定向映射。不要把大量无关旧页或已删除页通配到新首页：没有对应内容的 URL 应返回合理的 404/410，或在新内容就绪后再重定向。</p><ol><li>在预发布环境用真实请求测试每个关键旧 URL：只能有一跳 301/308，目标返回 200、正确 canonical，并保留路径和查询参数的既定规则。</li><li>发布后保留旧域名和重定向至少一年；抓取新旧站点地图，确认站点地图仅含可索引的规范 URL，且每个 URL 返回 200。</li><li>在 Search Console 验证两个资源；跨域名迁移时使用 Change of Address 工具，并提交新站 sitemap。用“网址检查”和效果报告观察，而不是逐页反复请求收录。</li></ol><p><strong>官方资料：</strong><a href="https://developers.google.com/search/docs/monitor-debug/search-console-start">Google Search Console 文档</a>；<a href="https://developers.google.com/search/help/crawling-index-faq">Google 关于 301 与索引的说明</a>。</p>

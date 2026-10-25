@@ -33,7 +33,7 @@ draft: false
 <h2>写代码的人：两套 Copilot，别买错</h2>
 <p>GitHub Copilot Pro 每月 $10，是这份表里最便宜的主力档，Pro+ $39、Max $100 逐级加上用量。2026 年它早已不只是补全工具——coding agent 可以领任务自己跑，Pro+ 以上的档位更适合把代理挂着重度使用的开发者。<a href="https://github.com/features/copilot/plans" rel="nofollow">官方 plans 页</a>标 $10/$39/$100，同一页面还在测试按 credit 计费的新口径（出现 $15/$70/$200 的档位），下单前留意你看到的是哪套计费。</p>
 <p>另一个 Copilot 是 Microsoft Copilot Pro，$20/月，卖的是 GPT 系模型在 Office 全家桶里的优先访问。名字几乎一样，东西完全不同：一个面向代码编辑器，一个面向 Word 和 Excel。买错的人不少，退款不一定顺利。</p>
-<p>顺带一提，如果你在 Claude Code 和 Cursor 之间纠结过，我们之前写过一篇对比（<a href="https://virtualcardx.com/2026/07/13/ai-coding-tools-comparison-2026/">AI 编程工具横评：Claude Code vs Cursor</a>），订阅决策可以配合着看。</p>
+<p>顺带一提，如果你在 Claude Code 和 Cursor 之间纠结过，我们之前写过一篇对比（<a href="/blog/ai-coding-tools-comparison-2026/">AI 编程工具横评：Claude Code vs Cursor</a>），订阅决策可以配合着看。</p>
 <h2>四种预算方案</h2>
 <ul>
 <li><strong>每月 $10：</strong>GitHub Copilot Pro。写代码的人在这个预算下没有第二个答案。</li>

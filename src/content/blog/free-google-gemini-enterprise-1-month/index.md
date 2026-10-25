@@ -48,6 +48,6 @@ draft: false
 <ul>
 <li><a href="https://virtualcardx.com/artificial-intelligence/">人工智能专题</a></li>
 <li>AI生成内容SEO优化</li>
-<li><a href="https://virtualcardx.com/2026/07/05/china-api-proxy-list/">中转API服务列表</a></li>
+<li><a href="/blog/china-api-proxy-list/">中转API服务列表</a></li>
 </ul>
 </section>

@@ -59,7 +59,7 @@ draft: false
 <li>每周看一次 GSC 的「效果」与「索引覆盖率」，人工处置和安全问题通知是邮件+后台双通道，保持通知畅通；</li>
 <li>内容产出守住"对人有用"底线，AI 辅助没有问题，批量灌水一定会出问题；</li>
 <li>外链只做自然增长，不买链接、不进链接农场，友情链接定期回访查对方站点状态；</li>
-<li>重大改版、换域名、调整 URL 结构时，按<a href="https://virtualcardx.com/site-migration-301-sitemap-seo-guide/">网站迁移 301 与 Sitemap 实操指南</a>做好跳转和提交，把技术性流量损失和惩罚区分开；</li>
+<li>重大改版、换域名、调整 URL 结构时，按<a href="/blog/site-migration-301-sitemap-seo-guide/">网站迁移 301 与 Sitemap 实操指南</a>做好跳转和提交，把技术性流量损失和惩罚区分开；</li>
 <li>老域名交易前必查历史档案，黑历史域名一律不碰。</li>
 </ul>
 <h3 class="wp-block-heading">十、最容易被误判成"惩罚"的四种情况</h3>

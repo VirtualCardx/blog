@@ -22,7 +22,7 @@ draft: false
 <p>另一个高频问题是：<strong>已经在 Google Search Console 验证过的站，要不要重做一遍？</strong>不用。BWT 支持从 Google Search Console 一键导入站点和基础配置，登录 Google 账号授权即可，这是官方提供的正规通道。</p>
 <h2>第二步：把 sitemap 提交上去</h2>
 <p>验证完成后，去 Sitemaps 面板提交 <code>/sitemap.xml</code>。Bing 官方站长指南（<a href="https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a" rel="nofollow">Webmaster Guidelines</a>，核验日期 2026-10-16）明确列出的 URL 发现途径有四个：IndexNow 提交、XML sitemap、可抓取的内链、外部站点的外链。sitemap 只是其中一环，但它是成本最低的一环。</p>
-<p>几个实操要点：sitemap 只放最终 200 的规范 URL，301 跳转、404 页面、带参数的重复页面都不要塞进去；改版或迁移后更新 sitemap 再重新提交一次；URL 量大的站按目录或语言拆分文件，别把几万条堆在一个 XML 里。网站迁移时 URL 结构变化对收录的冲击，可以参考我们之前的<a href="https://virtualcardx.com/site-migration-301-sitemap-seo-guide/">网站迁移不丢流量：301 与 Sitemap 实操指南</a>。</p>
+<p>几个实操要点：sitemap 只放最终 200 的规范 URL，301 跳转、404 页面、带参数的重复页面都不要塞进去；改版或迁移后更新 sitemap 再重新提交一次；URL 量大的站按目录或语言拆分文件，别把几万条堆在一个 XML 里。网站迁移时 URL 结构变化对收录的冲击，可以参考我们之前的<a href="/blog/site-migration-301-sitemap-seo-guide/">网站迁移不丢流量：301 与 Sitemap 实操指南</a>。</p>
 <h2>第三步：用 URL 检查工具诊断收录</h2>
 <p>提交之后不是万事大吉。某条 URL 一直不出现在 Bing 结果里，用 <strong>URL Inspection（URL 检查）</strong>工具查（官方文档 <a href="https://www.bing.com/webmasters/help/url-inspection-55a30305" rel="nofollow">URL Inspection</a>，核验日期 2026-10-16）。它会返回三张卡片：</p>
 <ul>
@@ -53,7 +53,7 @@ Host: api.indexnow.org
     "https://www.example.com/url2"
   ]
 }</code></pre>
-<p>协议官方文档见 <a href="https://www.indexnow.org/documentation" rel="nofollow">IndexNow Documentation</a>（核验日期 2026-10-16）。响应码含义：200 成功收到；202 已接收、key 验证待完成；400 格式错误；403 key 无效；422 URL 不属于该 host；429 提交过于频繁疑似垃圾行为。单次批量上限 10000 条 URL，URL 必须与 key 同一 host。之前我们写过一篇在 Cloudflare 上给 Astro 站点接入 IndexNow 的具体配置，可以配合本文参考：<a href="https://virtualcardx.com/2026/03/01/cloudflare-astro-enable-indexnow/">Cloudflare 中 Astro 启用 IndexNow 方法</a>。</p>
+<p>协议官方文档见 <a href="https://www.indexnow.org/documentation" rel="nofollow">IndexNow Documentation</a>（核验日期 2026-10-16）。响应码含义：200 成功收到；202 已接收、key 验证待完成；400 格式错误；403 key 无效；422 URL 不属于该 host；429 提交过于频繁疑似垃圾行为。单次批量上限 10000 条 URL，URL 必须与 key 同一 host。之前我们写过一篇在 Cloudflare 上给 Astro 站点接入 IndexNow 的具体配置，可以配合本文参考：<a href="/blog/cloudflare-astro-enable-indexnow/">Cloudflare 中 Astro 启用 IndexNow 方法</a>。</p>
 <h3>集成方式选哪种</h3>
 <p>如果站点跑在 Cloudflare 上，控制台里可以直接开启 IndexNow 自动提交；WordPress 有官方插件；Shopify、Joomla、Drupal 等主流建站系统也都有集成。自建发布流水线的站（比如本站这种 Worker 架构）在发布钩子里自己 POST 一次最干净。BWT 后台的 IndexNow 标签页能看到提交量曲线、来源（自助提交还是插件/CDN 代发）和近实时 URL 样本，用来确认集成是否生效。</p>
 <h2>第五步：读懂数据面板</h2>

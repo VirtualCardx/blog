@@ -64,8 +64,8 @@ draft: false
 <tr><td>Airalo 等专业 eSIM 平台</td><td>目的地更冷门或用 iPhone 的用户</td><td>需要额外 App，多一步操作</td></tr>
 </tbody>
 </table>
-<p>如果你要的是「保号 + 收验证码」而不是纯上网，eSIM 数据卡帮不了你——这类需求可以看我们之前的<a href="https://virtualcardx.com/celcomdigi-purple-sim-china-roaming-review-2026/">CelcomDigi 紫卡漫游实测</a>和<a href="https://virtualcardx.com/a1-croatia-esim-backup-number-guide-2026/">克罗地亚 A1 eSIM 保号方案</a>，思路完全不同。</p>
-<p>另外提醒一句：eSIM 行业这两年出过商家跑路的案例（我们记录过 <a href="https://virtualcardx.com/2026/07/05/5ber-esim-solution/">5Ber eSIM 事件</a>）。Opera 是纳斯达克上市公司（OPRA），跑路风险和街头小店不是一个量级，但「预付的钱在商家手里」这个结构本身没变——只买近期要用的量，不要囤大额套餐。</p>
+<p>如果你要的是「保号 + 收验证码」而不是纯上网，eSIM 数据卡帮不了你——这类需求可以看我们之前的<a href="https://virtualcardx.com/celcomdigi-purple-sim-china-roaming-review-2026/">CelcomDigi 紫卡漫游实测</a>和<a href="/blog/a1-croatia-esim-backup-number-guide-2026/">克罗地亚 A1 eSIM 保号方案</a>，思路完全不同。</p>
+<p>另外提醒一句：eSIM 行业这两年出过商家跑路的案例（我们记录过 <a href="/blog/5ber-esim-solution/">5Ber eSIM 事件</a>）。Opera 是纳斯达克上市公司（OPRA），跑路风险和街头小店不是一个量级，但「预付的钱在商家手里」这个结构本身没变——只买近期要用的量，不要囤大额套餐。</p>
 
 <h2>风险与限制清单</h2>
 <ul>
