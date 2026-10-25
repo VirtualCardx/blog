@@ -44,10 +44,5 @@ draft: false
 <p>如果你只是偶尔使用，免费方案或短期订阅通常够用。如果要把 AI 工具接入业务流程，就要重点关注稳定性、可导出能力、团队协作和长期价格。</p>
 <h3>实用建议</h3>
 <p>不要只依赖单一工具。写作、搜索、代码、图片、表格各有强项，组合使用往往比追求“一个工具解决所有问题”更稳。重要内容发布前，仍然需要人工检查事实、链接和表达方式。</p>
-<h3>相关内容</h3>
-<ul>
-<li><a href="https://virtualcardx.com/artificial-intelligence/">人工智能专题</a></li>
-<li>AI生成内容SEO优化</li>
-<li><a href="/blog/china-api-proxy-list/">中转API服务列表</a></li>
-</ul>
+
 </section>

@@ -54,10 +54,5 @@ iface enp0s8 inet static
 <p>如果教程中的路径或菜单与你的环境不一致，优先以当前系统显示为准，再根据关键词定位相同功能。尤其是 Windows 控制面板、WordPress 插件菜单和云服务控制台，经常会因版本更新而调整入口。</p>
 <h3>后续维护建议</h3>
 <p>完成一次修复不代表问题永久消失。建议把关键命令、修改过的文件、修改时间和验证结果记录下来。后续迁移服务器、升级插件或换主题时，这些记录能节省大量排查时间。</p>
-<h3>相关内容</h3>
-<ul>
-<li><a href="https://virtualcardx.com/technology-share/">技术分享</a></li>
-<li><a href="https://virtualcardx.com/technology-share/">WordPress教程</a></li>
-<li><a href="https://virtualcardx.com/seo/">SEO技术</a></li>
-</ul>
+
 </section>

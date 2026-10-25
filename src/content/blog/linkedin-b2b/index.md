@@ -1,6 +1,6 @@
 ---
 title: "如何用LinkedIn做B2B客户开发"
-description: "全面解析如何用LinkedIn做B2B客户开发，总结LinkedIn账号运营、客户开发与限制恢复的实操经验，提供详细操作步骤与避坑技巧。"
+description: "用 LinkedIn 做 B2B 客户开发的实操路径：账号搭建、目标客户搜索、Sales Navigator 使用与跟进话术，附限制规避与节奏建议。"
 pubDate: 2026-07-04
 updatedDate: 2026-10-24
 tags: ["技术杂谈"]

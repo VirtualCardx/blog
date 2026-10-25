@@ -41,12 +41,7 @@ draft: false
 <li>把可替代方案也保存下来，避免单点失效。</li>
 </ul>
 <p>如果你是为了长期业务使用，建议选择有稳定维护记录、清晰隐私政策和可联系支持渠道的工具。短期临时需求可以用免费方案，但不要把关键资料长期放在不确定的平台上。</p>
-<h3>相关内容</h3>
-<ul>
-<li><a href="https://virtualcardx.com/resource-share/">资源分享</a></li>
-<li><a href="https://virtualcardx.com/technology-share/">技术分享</a></li>
-<li><a href="https://virtualcardx.com/seo/">SEO技术</a></li>
-</ul>
+
 </section>
 <hr>
 <h2>2026：把 GSC 状态当诊断线索，不是逐项“修复”清单</h2><p>“已抓取，尚未编入索引”没有保证的人工修复按钮。先抽样检查页面是否独特、可访问、可被抓取、返回 200、未 noindex、canonical 指向自己或合理主版本，并有内部链接；随后改善实际内容和站点质量。不要为让标签页或薄聚合页获得索引而一律取消 noindex。</p><p>“替代页面（具有正确的规范页标记）”通常是信息状态：若规范页选择符合预期，无需处理。重定向问题应通过真实 HTTP 链路定位并修复循环、长链或错误目标；修复后使用 URL Inspection 测试关键 URL，并在后续数据周期观察，而不是反复批量提交。</p><p><strong>官方资料：</strong><a href="https://developers.google.com/search/docs/monitor-debug/search-console-start">Search Console 文档</a>；<a href="https://developers.google.com/search/help/crawling-index-faq">Google 索引 FAQ</a>。</p>

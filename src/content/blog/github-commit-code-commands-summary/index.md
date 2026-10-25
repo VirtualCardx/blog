@@ -57,12 +57,7 @@ git config --global --unset http.https://github.com.proxy</code></pre>
 <p>如果教程中的路径或菜单与你的环境不一致，优先以当前系统显示为准，再根据关键词定位相同功能。尤其是 Windows 控制面板、WordPress 插件菜单和云服务控制台，经常会因版本更新而调整入口。</p>
 <h3>后续维护建议</h3>
 <p>完成一次修复不代表问题永久消失。建议把关键命令、修改过的文件、修改时间和验证结果记录下来。后续迁移服务器、升级插件或换主题时，这些记录能节省大量排查时间。</p>
-<h3>相关内容</h3>
-<ul>
-<li><a href="https://virtualcardx.com/technology-share/">技术分享</a></li>
-<li><a href="https://virtualcardx.com/technology-share/">WordPress教程</a></li>
-<li><a href="https://virtualcardx.com/seo/">SEO技术</a></li>
-</ul>
+
 </section>
 <hr>
 <h2>2026 提交前最小安全流程</h2><ol><li><code>git status</code>：确认仅包含预期文件；不要用无差别 <code>git add .</code>。</li><li><code>git diff --check</code> 和项目测试：检查空白错误并运行适用测试。</li><li><code>git add -- &lt;文件&gt;</code>，再用 <code>git diff --cached</code> 审阅将提交的内容。</li><li>使用清晰提交信息，例如 <code>fix: correct sitemap redirect handling</code>；提交后 <code>git show --stat</code> 复核。</li><li>推送前确认 remote 和分支；启用 secret scanning/pre-commit 检查。若误提交密钥，先撤销/轮换，不能只删除最新提交中的文本。</li></ol><p>提交是可审计变更，不是备份替代品；重写共享分支历史前需协调所有协作者。</p><p><strong>官方资料：</strong><a href="https://docs.github.com/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository">GitHub sensitive-data guidance</a>。</p>

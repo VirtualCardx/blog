@@ -36,12 +36,7 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} &#91;L,R=301]</code></pre>
 <p>如果教程中的路径或菜单与你的环境不一致，优先以当前系统显示为准，再根据关键词定位相同功能。尤其是 Windows 控制面板、WordPress 插件菜单和云服务控制台，经常会因版本更新而调整入口。</p>
 <h3>后续维护建议</h3>
 <p>完成一次修复不代表问题永久消失。建议把关键命令、修改过的文件、修改时间和验证结果记录下来。后续迁移服务器、升级插件或换主题时，这些记录能节省大量排查时间。</p>
-<h3>相关内容</h3>
-<ul>
-<li><a href="https://virtualcardx.com/technology-share/">技术分享</a></li>
-<li><a href="https://virtualcardx.com/technology-share/">WordPress教程</a></li>
-<li><a href="https://virtualcardx.com/seo/">SEO技术</a></li>
-</ul>
+
 </section>
 <hr>
 <h2>2026：优先在 Apache 虚拟主机配置 HTTPS</h2><p>若能修改主配置，Apache 推荐在专用 <code>&lt;VirtualHost *:80&gt;</code> 使用 <code>Redirect permanent / https://example.com/</code>，而不是把规则散落在 <code>.htaccess</code>。只有主机启用了 <code>AllowOverride</code> 且你没有主配置权限时，才在 DocumentRoot 的 <code>.htaccess</code> 使用 mod_rewrite。确认反向代理正确传递 HTTPS 状态，避免循环重定向；Let’s Encrypt HTTP-01 验证时保留 <code>/.well-known/acme-challenge/</code> 可访问。</p><p>改动前 <code>apachectl configtest</code>，再 reload；用 curl 测试 HTTP、HTTPS、www/non-www 和带查询参数 URL，确认只有一跳且 canonical 一致。</p><p><strong>官方资料：</strong><a href="https://httpd.apache.org/docs/2.4/rewrite/remapping.html">Apache redirect/remapping</a>。</p>

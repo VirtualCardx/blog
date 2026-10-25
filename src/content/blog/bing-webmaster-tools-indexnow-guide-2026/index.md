@@ -53,7 +53,7 @@ Host: api.indexnow.org
     "https://www.example.com/url2"
   ]
 }</code></pre>
-<p>协议官方文档见 <a href="https://www.indexnow.org/documentation" rel="nofollow">IndexNow Documentation</a>（核验日期 2026-10-16）。响应码含义：200 成功收到；202 已接收、key 验证待完成；400 格式错误；403 key 无效；422 URL 不属于该 host；429 提交过于频繁疑似垃圾行为。单次批量上限 10000 条 URL，URL 必须与 key 同一 host。之前我们写过一篇在 Cloudflare 上给 Astro 站点接入 IndexNow 的具体配置，可以配合本文参考：<a href="/blog/cloudflare-astro-enable-indexnow/">Cloudflare 中 Astro 启用 IndexNow 方法</a>。</p>
+<p>协议官方文档见 <a href="https://www.indexnow.org/documentation" rel="nofollow">IndexNow Documentation</a>（核验日期 2026-10-16）。响应码含义：200 成功收到；202 已接收、key 验证待完成；400 格式错误；403 key 无效；422 URL 不属于该 host；429 提交过于频繁疑似垃圾行为。单次批量上限 10000 条 URL，URL 必须与 key 同一 host。</p>
 <h3>集成方式选哪种</h3>
 <p>如果站点跑在 Cloudflare 上，控制台里可以直接开启 IndexNow 自动提交；WordPress 有官方插件；Shopify、Joomla、Drupal 等主流建站系统也都有集成。自建发布流水线的站（比如本站这种 Worker 架构）在发布钩子里自己 POST 一次最干净。BWT 后台的 IndexNow 标签页能看到提交量曲线、来源（自助提交还是插件/CDN 代发）和近实时 URL 样本，用来确认集成是否生效。</p>
 <h2>第五步：读懂数据面板</h2>

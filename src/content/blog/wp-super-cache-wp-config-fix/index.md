@@ -34,12 +34,7 @@ define('WPCACHEHOME','/var/www/html/wordpress/wp-content/plugins/wp-super-cache/
 <p>如果教程中的路径或菜单与你的环境不一致，优先以当前系统显示为准，再根据关键词定位相同功能。尤其是 Windows 控制面板、WordPress 插件菜单和云服务控制台，经常会因版本更新而调整入口。</p>
 <h3>后续维护建议</h3>
 <p>完成一次修复不代表问题永久消失。建议把关键命令、修改过的文件、修改时间和验证结果记录下来。后续迁移服务器、升级插件或换主题时，这些记录能节省大量排查时间。</p>
-<h3>相关内容</h3>
-<ul>
-<li><a href="https://virtualcardx.com/technology-share/">技术分享</a></li>
-<li><a href="https://virtualcardx.com/technology-share/">WordPress教程</a></li>
-<li><a href="https://virtualcardx.com/seo/">SEO技术</a></li>
-</ul>
+
 </section>
 <hr>
 <h2>2026 WP Super Cache 配置写入失败</h2><p>不要通过 <code>chmod 777</code>、Web 文件管理器或把 Web 进程设为文件所有者来“修复” <code>wp-config.php</code>。先备份文件并确认所有者、组、权限、磁盘空间、只读挂载和安全插件策略；通常仅部署账户与 Web 服务所需组应可读，只有受控部署过程才在短时间内可写。</p><p>若插件不能自动写入，复制它生成的配置片段，在版本控制/变更记录中人工审阅后写入正确位置；先在 staging 验证，并用 <code>php -l wp-config.php</code> 检查语法。缓存清理后测试登录、购物车/个性化页、预览与公开页，避免把动态页面作为静态缓存输出。</p><p><strong>资料：</strong><a href="https://developer.wordpress.org/advanced-administration/wordpress/wp-config/">WordPress wp-config</a>；<a href="https://developer.wordpress.org/advanced-administration/security/hardening/">WordPress hardening</a>。</p>
